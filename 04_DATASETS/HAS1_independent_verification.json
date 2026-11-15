@@ -1,0 +1,46 @@
+{
+  "sha256": "450fbd045e90d588497162eb2badd692a68d16b03188b6682ee9f82e9949bc33",
+  "bijective": true,
+  "round_trip_inverse": true,
+  "nonlinearity_min": 112,
+  "nonlinearity_max": 112,
+  "nonlinearity_distribution": {
+    "112": 255
+  },
+  "differential_uniformity": 4,
+  "ddt_spectrum": {
+    "0": 32895,
+    "2": 32130,
+    "4": 255
+  },
+  "max_differential_probability": 0.015625,
+  "max_walsh": 32,
+  "max_linear_correlation": 0.125,
+  "max_linear_bias": 0.0625,
+  "degree_min": 7,
+  "degree_max": 7,
+  "degree_distribution": {
+    "7": 255
+  },
+  "boomerang_uniformity": 6,
+  "dlct_absolute_indicator": 32,
+  "fixed_points": 0,
+  "opposite_fixed_points": 0,
+  "sac_mean": 0.497314453125,
+  "sac_mad": 0.021240234375,
+  "sac_maxdev": 0.046875,
+  "bic_max_abs_corr": 0.13169572921034225,
+  "bic_mean_abs_corr": 0.0582538131542571,
+  "bic_pairwise_nonlinearity_min": 112,
+  "cycle_structure": [
+    116,
+    110,
+    30
+  ],
+  "inverse_nonlinearity_min": 112,
+  "first_two_known_answers": {
+    "00": "09",
+    "01": "68"
+  },
+  "elapsed_s": 29.4952073097229
+}

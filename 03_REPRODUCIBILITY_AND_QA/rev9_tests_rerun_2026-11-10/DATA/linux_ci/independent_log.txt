@@ -1,0 +1,19 @@
+A Q2 profile 0: G perm True, type=A True, F stats equal True, F differs on 0, G differs on 0 states (2 s)
+A Q2 profile 1: G perm True, type=A True, F stats equal True, F differs on 0, G differs on 0 states (0 s)
+A Q2 profile 2: G perm True, type=A True, F stats equal True, F differs on 0, G differs on 0 states (0 s)
+A Q2 profile 3: G perm True, type=A True, F stats equal True, F differs on 0, G differs on 0 states (0 s)
+A Q2 profile 4: G perm True, type=A True, F stats equal True, F differs on 0, G differs on 0 states (0 s)
+A Q2 profile 5: G perm True, type=A True, F stats equal True, F differs on 0, G differs on 0 states (0 s)
+A Q2 profile 6: G perm True, type=A True, F stats equal True, F differs on 0, G differs on 0 states (0 s)
+A Q2 profile 7: G perm True, type=A True, F stats equal True, F differs on 0, G differs on 0 states (0 s)
+A Q2 profile 8: G perm True, type=A True, F stats equal True, F differs on 0, G differs on 0 states (0 s)
+A Q2 profile 9: G perm True, type=A True, F stats equal True, F differs on 0, G differs on 0 states (0 s)
+B Q4: periods [8, 12, 24]
+B Q5: periods [12, 16, 24, 48]
+B Q6: periods [48, 96]
+B Q7: periods [96, 192]
+C tables 16384: SHA-256 equal 13848, statistics equal 13848 (largest difference 184)
+C HCHM+SHAKE vs SHAKE-only: p 0.4375, Holm 1.0000, |g| 0.0176, bound 0.0609, Bonferroni bound 0.0780, |delta| 0.0094, |r| within pairs 0.0488, equal to stored True
+C Float64 orbit, no hash, vs SHAKE-only: p 0.2276, Holm 1.0000, |g| 0.0281, bound 0.0714, Bonferroni bound 0.0885, |delta| 0.0146, |r| within pairs 0.0299, equal to stored True
+C lattice orbit, no hash, vs SHAKE-only: p 0.0162, Holm 0.1293, |g| 0.0534, bound 0.0967, Bonferroni bound 0.1138, |delta| 0.0294, |r| within pairs 0.0195, equal to stored True
+C Float64 orbit, no hash, vs HCHM+SHAKE: p 0.2447, Holm 1.0000, |g| 0.0280, bound 0.0713, Bonferroni bound 0.0884, |delta| 0.0148, |r| within pairs 0.0314, equal to stored True

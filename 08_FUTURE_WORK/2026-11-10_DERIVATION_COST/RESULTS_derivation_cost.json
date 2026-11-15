@@ -1,0 +1,271 @@
+{
+ "plan": "../PLAN.md",
+ "smoke_test": false,
+ "machine": {
+  "platform": "Windows-11-10.0.26300-SP0",
+  "machine": "AMD64",
+  "python": "3.12.13",
+  "logical_cpus": 16,
+  "cpu": "Intel(R) Core(TM) Ultra 7 255H",
+  "cpu_nominal_mhz": 3686,
+  "ram_bytes": 33713881088,
+  "memory_load_percent_at_start": 75,
+  "power_source": "mains",
+  "battery_percent": 100,
+  "battery_saver_on": false
+ },
+ "packages": {
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "script_sha256": "e432f14c71d3be582cadf5ab1ba0f5604b52a42e5dca761f97410f11b65eab63",
+ "reference_sources_sha256": {
+  "run_validated_experiments.py": "42d801e49cc88bd999a763731ae2ec7d0a61c170bc7046604ef5fd22b590e7f8",
+  "platform_rerun_and_extended_ablation.py": "15504de3015b47f3d9217d629d40d6ea7d7f8690ba8b4b36f367b7c2c23dc072"
+ },
+ "design": {
+  "repetitions_per_arm": 20,
+  "keys": [
+   60000,
+   60016
+  ],
+  "rounds": 16,
+  "tables_per_run": 256,
+  "order": "the six permutations of (S, H, L) in turn, one per repetition",
+  "warmup_tables": 4,
+  "bootstrap": {
+   "resamples": 10000,
+   "seed": 20261110
+  }
+ },
+ "started_utc": "2026-11-10T05:53:36Z",
+ "machine_at_end": {
+  "memory_load_percent_at_start": 75,
+  "power_source": "mains",
+  "battery_percent": 100,
+  "battery_saver_on": false
+ },
+ "finished_utc": "2026-11-10T06:06:35Z",
+ "summary": {
+  "arms": {
+   "S": {
+    "runs": 20,
+    "tables_per_run": 256,
+    "reference_check_passed_all": true,
+    "tables_identical_across_runs": true,
+    "throughput_tables_per_s": {
+     "median": 3259.664941852297,
+     "ci95_median": [
+      3154.1773485219674,
+      3324.3880296269285
+     ],
+     "mean": 3249.0160061310635,
+     "sd": 170.30040897913625,
+     "min": 3002.48878171672,
+     "max": 3580.2893880781958
+    },
+    "per_table_ms": {
+     "median_of_run_medians": 0.275825,
+     "ci95": [
+      0.27225,
+      0.27749999999999997
+     ],
+     "pooled_p05": 0.261,
+     "pooled_p95": 0.4768350000000001,
+     "pooled_max": 2.1189
+    },
+    "stage_ms_median_of_run_medians": {
+     "material": 0.001,
+     "expand": 0.00655,
+     "table": 0.26635
+    },
+    "stage_share_of_total": {
+     "material": 0.0036254871748391195,
+     "expand": 0.023746940995196232,
+     "table": 0.9656485090183993
+    },
+    "peak_memory_mib": {
+     "after_import": {
+      "median": 167.125,
+      "min": 166.796875,
+      "max": 167.484375
+     },
+     "after_warmup": {
+      "median": 167.15625,
+      "min": 166.828125,
+      "max": 167.515625
+     },
+     "after_loop": {
+      "median": 167.24609375,
+      "min": 166.94140625,
+      "max": 167.58984375
+     }
+    },
+    "peak_increase_during_loop_mib": {
+     "median": 0.080078125,
+     "max": 0.15625
+    },
+    "tracemalloc_peak_kib_16_tables": {
+     "median": 7.7578125,
+     "min": 7.7578125,
+     "max": 7.7578125
+    },
+    "import_s_median": 8.6283401,
+    "drift_spearman_throughput_vs_sequence": -0.29473684210526313
+   },
+   "H": {
+    "runs": 20,
+    "tables_per_run": 256,
+    "reference_check_passed_all": true,
+    "tables_identical_across_runs": true,
+    "throughput_tables_per_s": {
+     "median": 44.59827486696238,
+     "ci95_median": [
+      44.27381895104151,
+      44.93559265103305
+     ],
+     "mean": 43.91109722867891,
+     "sd": 2.1105122771428344,
+     "min": 38.652123744713776,
+     "max": 46.91974959662762
+    },
+    "per_table_ms": {
+     "median_of_run_medians": 22.2275,
+     "ci95": [
+      22.034999999999997,
+      22.3204
+     ],
+     "pooled_p05": 19.94135,
+     "pooled_p95": 26.39098,
+     "pooled_max": 148.9535
+    },
+    "stage_ms_median_of_run_medians": {
+     "material": 21.754375,
+     "expand": 0.06595000000000001,
+     "table": 0.36955
+    },
+    "stage_share_of_total": {
+     "material": 0.9787144303227984,
+     "expand": 0.002967045326734901,
+     "table": 0.01662580137217411
+    },
+    "peak_memory_mib": {
+     "after_import": {
+      "median": 167.0,
+      "min": 166.5546875,
+      "max": 167.34375
+     },
+     "after_warmup": {
+      "median": 167.130859375,
+      "min": 166.6875,
+      "max": 167.4765625
+     },
+     "after_loop": {
+      "median": 167.28125,
+      "min": 166.8046875,
+      "max": 167.63671875
+     }
+    },
+    "peak_increase_during_loop_mib": {
+     "median": 0.17578125,
+     "max": 0.29296875
+    },
+    "tracemalloc_peak_kib_16_tables": {
+     "median": 9.380859375,
+     "min": 9.380859375,
+     "max": 9.380859375
+    },
+    "import_s_median": 8.61490645,
+    "drift_spearman_throughput_vs_sequence": 0.1894736842105263
+   },
+   "L": {
+    "runs": 20,
+    "tables_per_run": 256,
+    "reference_check_passed_all": true,
+    "tables_identical_across_runs": true,
+    "throughput_tables_per_s": {
+     "median": 409.6988462548568,
+     "ci95_median": [
+      404.47059608163715,
+      415.44362976200534
+     ],
+     "mean": 410.1560726496723,
+     "sd": 12.334745253123687,
+     "min": 377.9567363553927,
+     "max": 431.8734044091238
+    },
+    "per_table_ms": {
+     "median_of_run_medians": 2.3438499999999998,
+     "ci95": [
+      2.305875,
+      2.362825
+     ],
+     "pooled_p05": 2.0861899999999998,
+     "pooled_p95": 3.1268049999999996,
+     "pooled_max": 6.4356
+    },
+    "stage_ms_median_of_run_medians": {
+     "material": 1.9869750000000002,
+     "expand": 0.017775,
+     "table": 0.31155
+    },
+    "stage_share_of_total": {
+     "material": 0.8477398297672634,
+     "expand": 0.007583676429805662,
+     "table": 0.13292232864731107
+    },
+    "peak_memory_mib": {
+     "after_import": {
+      "median": 167.033203125,
+      "min": 166.765625,
+      "max": 167.36328125
+     },
+     "after_warmup": {
+      "median": 167.064453125,
+      "min": 166.796875,
+      "max": 167.39453125
+     },
+     "after_loop": {
+      "median": 167.25,
+      "min": 166.9609375,
+      "max": 167.546875
+     }
+    },
+    "peak_increase_during_loop_mib": {
+     "median": 0.16015625,
+     "max": 0.20703125
+    },
+    "tracemalloc_peak_kib_16_tables": {
+     "median": 8.337890625,
+     "min": 8.337890625,
+     "max": 8.455078125
+    },
+    "import_s_median": 8.6389734,
+    "drift_spearman_throughput_vs_sequence": -0.2706766917293233
+   }
+  },
+  "ratios": {
+   "H/S": {
+    "median_per_table_time_ratio": 80.58551617873651,
+    "ci95": [
+     79.66902045989498,
+     81.84300403966215
+    ]
+   },
+   "L/S": {
+    "median_per_table_time_ratio": 8.497598114746669,
+    "ci95": [
+     8.350081477457902,
+     8.631289019463827
+    ]
+   },
+   "L/H": {
+    "median_per_table_time_ratio": 0.10544820605106286,
+    "ci95": [
+     0.10364011519858368,
+     0.1066754869250755
+    ]
+   }
+  }
+ }
+}

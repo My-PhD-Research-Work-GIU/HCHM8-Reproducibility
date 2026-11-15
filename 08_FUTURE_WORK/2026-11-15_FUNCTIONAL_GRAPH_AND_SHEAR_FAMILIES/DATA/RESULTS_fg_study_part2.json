@@ -1,0 +1,8667 @@
+{
+ "started_utc": "2026-11-15T10:25:57Z",
+ "plan_sha256": "92e383b9014ebc734014e067c730dfb302617369c9153d899356e6615e359351",
+ "script_sha256": "c43e9df8332750cbfc87933ae01cd4b095c42692d99739504beea34520d8aaed",
+ "emulator_sha256": "f619488f7dc25ea9bfbb0acb16bd2f0e9ed58598d3a89078aa59111d38cadd89",
+ "argv": [
+  "DATA",
+  "--profiles",
+  "0:10",
+  "--q2",
+  "4,5",
+  "--starts",
+  "8",
+  "--part",
+  "2"
+ ],
+ "environment": {
+  "platform": "Windows-11-10.0.26300-SP0",
+  "python": "3.12.13",
+  "numpy": "2.5.4",
+  "numba": "0.68.1",
+  "threads": 16
+ },
+ "part2": [
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 0,
+   "run": 0,
+   "tail": 94997,
+   "cycle": 53404,
+   "rho": 148401
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 0,
+   "run": 1,
+   "tail": 103513,
+   "cycle": 53404,
+   "rho": 156917
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 0,
+   "run": 2,
+   "tail": 33832,
+   "cycle": 20327,
+   "rho": 54159
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 0,
+   "run": 3,
+   "tail": 19665,
+   "cycle": 20327,
+   "rho": 39992
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 0,
+   "run": 4,
+   "tail": 5471,
+   "cycle": 53404,
+   "rho": 58875
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 0,
+   "run": 5,
+   "tail": 50055,
+   "cycle": 53404,
+   "rho": 103459
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 0,
+   "run": 6,
+   "tail": 45899,
+   "cycle": 53404,
+   "rho": 99303
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 0,
+   "run": 7,
+   "tail": 25295,
+   "cycle": 20327,
+   "rho": 45622
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 1,
+   "run": 0,
+   "tail": 31350,
+   "cycle": 1784,
+   "rho": 33134
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 1,
+   "run": 1,
+   "tail": 15341,
+   "cycle": 72562,
+   "rho": 87903
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 1,
+   "run": 2,
+   "tail": 34469,
+   "cycle": 254,
+   "rho": 34723
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 1,
+   "run": 3,
+   "tail": 21080,
+   "cycle": 1784,
+   "rho": 22864
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 1,
+   "run": 4,
+   "tail": 31540,
+   "cycle": 254,
+   "rho": 31794
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 1,
+   "run": 5,
+   "tail": 19950,
+   "cycle": 1784,
+   "rho": 21734
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 1,
+   "run": 6,
+   "tail": 105758,
+   "cycle": 72562,
+   "rho": 178320
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 1,
+   "run": 7,
+   "tail": 58539,
+   "cycle": 72562,
+   "rho": 131101
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 2,
+   "run": 0,
+   "tail": 42437,
+   "cycle": 74646,
+   "rho": 117083
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 2,
+   "run": 1,
+   "tail": 71025,
+   "cycle": 74646,
+   "rho": 145671
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 2,
+   "run": 2,
+   "tail": 93961,
+   "cycle": 74646,
+   "rho": 168607
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 2,
+   "run": 3,
+   "tail": 42094,
+   "cycle": 74646,
+   "rho": 116740
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 2,
+   "run": 4,
+   "tail": 2155,
+   "cycle": 74646,
+   "rho": 76801
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 2,
+   "run": 5,
+   "tail": 17044,
+   "cycle": 74646,
+   "rho": 91690
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 2,
+   "run": 6,
+   "tail": 75767,
+   "cycle": 74646,
+   "rho": 150413
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 2,
+   "run": 7,
+   "tail": 71418,
+   "cycle": 74646,
+   "rho": 146064
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 3,
+   "run": 0,
+   "tail": 28257,
+   "cycle": 21231,
+   "rho": 49488
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 3,
+   "run": 1,
+   "tail": 30790,
+   "cycle": 314,
+   "rho": 31104
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 3,
+   "run": 2,
+   "tail": 49271,
+   "cycle": 314,
+   "rho": 49585
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 3,
+   "run": 3,
+   "tail": 63349,
+   "cycle": 21231,
+   "rho": 84580
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 3,
+   "run": 4,
+   "tail": 39502,
+   "cycle": 314,
+   "rho": 39816
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 3,
+   "run": 5,
+   "tail": 28581,
+   "cycle": 314,
+   "rho": 28895
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 3,
+   "run": 6,
+   "tail": 8603,
+   "cycle": 21231,
+   "rho": 29834
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 3,
+   "run": 7,
+   "tail": 56219,
+   "cycle": 21231,
+   "rho": 77450
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 4,
+   "run": 0,
+   "tail": 13902,
+   "cycle": 21453,
+   "rho": 35355
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 4,
+   "run": 1,
+   "tail": 5274,
+   "cycle": 21453,
+   "rho": 26727
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 4,
+   "run": 2,
+   "tail": 29145,
+   "cycle": 21453,
+   "rho": 50598
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 4,
+   "run": 3,
+   "tail": 8526,
+   "cycle": 21453,
+   "rho": 29979
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 4,
+   "run": 4,
+   "tail": 33496,
+   "cycle": 21453,
+   "rho": 54949
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 4,
+   "run": 5,
+   "tail": 39776,
+   "cycle": 21453,
+   "rho": 61229
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 4,
+   "run": 6,
+   "tail": 72746,
+   "cycle": 21453,
+   "rho": 94199
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 4,
+   "run": 7,
+   "tail": 81946,
+   "cycle": 21453,
+   "rho": 103399
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 5,
+   "run": 0,
+   "tail": 160900,
+   "cycle": 5642,
+   "rho": 166542
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 5,
+   "run": 1,
+   "tail": 73230,
+   "cycle": 29709,
+   "rho": 102939
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 5,
+   "run": 2,
+   "tail": 61229,
+   "cycle": 29709,
+   "rho": 90938
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 5,
+   "run": 3,
+   "tail": 14908,
+   "cycle": 5761,
+   "rho": 20669
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 5,
+   "run": 4,
+   "tail": 20731,
+   "cycle": 29709,
+   "rho": 50440
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 5,
+   "run": 5,
+   "tail": 52035,
+   "cycle": 29709,
+   "rho": 81744
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 5,
+   "run": 6,
+   "tail": 60449,
+   "cycle": 29709,
+   "rho": 90158
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 5,
+   "run": 7,
+   "tail": 69976,
+   "cycle": 29709,
+   "rho": 99685
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 6,
+   "run": 0,
+   "tail": 92538,
+   "cycle": 52531,
+   "rho": 145069
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 6,
+   "run": 1,
+   "tail": 81470,
+   "cycle": 52531,
+   "rho": 134001
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 6,
+   "run": 2,
+   "tail": 98229,
+   "cycle": 52531,
+   "rho": 150760
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 6,
+   "run": 3,
+   "tail": 39905,
+   "cycle": 52531,
+   "rho": 92436
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 6,
+   "run": 4,
+   "tail": 40840,
+   "cycle": 52531,
+   "rho": 93371
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 6,
+   "run": 5,
+   "tail": 17500,
+   "cycle": 52531,
+   "rho": 70031
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 6,
+   "run": 6,
+   "tail": 78361,
+   "cycle": 52531,
+   "rho": 130892
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 6,
+   "run": 7,
+   "tail": 84843,
+   "cycle": 52531,
+   "rho": 137374
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 7,
+   "run": 0,
+   "tail": 75837,
+   "cycle": 68114,
+   "rho": 143951
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 7,
+   "run": 1,
+   "tail": 103837,
+   "cycle": 68114,
+   "rho": 171951
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 7,
+   "run": 2,
+   "tail": 24044,
+   "cycle": 68114,
+   "rho": 92158
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 7,
+   "run": 3,
+   "tail": 7939,
+   "cycle": 68114,
+   "rho": 76053
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 7,
+   "run": 4,
+   "tail": 6614,
+   "cycle": 68114,
+   "rho": 74728
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 7,
+   "run": 5,
+   "tail": 28444,
+   "cycle": 68114,
+   "rho": 96558
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 7,
+   "run": 6,
+   "tail": 86157,
+   "cycle": 68114,
+   "rho": 154271
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 7,
+   "run": 7,
+   "tail": 26994,
+   "cycle": 68114,
+   "rho": 95108
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 8,
+   "run": 0,
+   "tail": 83213,
+   "cycle": 41790,
+   "rho": 125003
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 8,
+   "run": 1,
+   "tail": 22207,
+   "cycle": 41790,
+   "rho": 63997
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 8,
+   "run": 2,
+   "tail": 86070,
+   "cycle": 41790,
+   "rho": 127860
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 8,
+   "run": 3,
+   "tail": 5367,
+   "cycle": 6329,
+   "rho": 11696
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 8,
+   "run": 4,
+   "tail": 14959,
+   "cycle": 41790,
+   "rho": 56749
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 8,
+   "run": 5,
+   "tail": 83145,
+   "cycle": 41790,
+   "rho": 124935
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 8,
+   "run": 6,
+   "tail": 101888,
+   "cycle": 41790,
+   "rho": 143678
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 8,
+   "run": 7,
+   "tail": 42770,
+   "cycle": 41790,
+   "rho": 84560
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 9,
+   "run": 0,
+   "tail": 36204,
+   "cycle": 92435,
+   "rho": 128639
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 9,
+   "run": 1,
+   "tail": 7211,
+   "cycle": 92435,
+   "rho": 99646
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 9,
+   "run": 2,
+   "tail": 20792,
+   "cycle": 92435,
+   "rho": 113227
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 9,
+   "run": 3,
+   "tail": 18030,
+   "cycle": 92435,
+   "rho": 110465
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 9,
+   "run": 4,
+   "tail": 22096,
+   "cycle": 92435,
+   "rho": 114531
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 9,
+   "run": 5,
+   "tail": 24811,
+   "cycle": 92435,
+   "rho": 117246
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 9,
+   "run": 6,
+   "tail": 541,
+   "cycle": 92435,
+   "rho": 92976
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_nearest",
+   "profile": 9,
+   "run": 7,
+   "tail": 10592,
+   "cycle": 92435,
+   "rho": 103027
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 0,
+   "run": 0,
+   "tail": 1556,
+   "cycle": 13055,
+   "rho": 14611
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 0,
+   "run": 1,
+   "tail": 26319,
+   "cycle": 36032,
+   "rho": 62351
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 0,
+   "run": 2,
+   "tail": 8767,
+   "cycle": 36032,
+   "rho": 44799
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 0,
+   "run": 3,
+   "tail": 84800,
+   "cycle": 36032,
+   "rho": 120832
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 0,
+   "run": 4,
+   "tail": 2256,
+   "cycle": 8,
+   "rho": 2264
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 0,
+   "run": 5,
+   "tail": 45646,
+   "cycle": 36032,
+   "rho": 81678
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 0,
+   "run": 6,
+   "tail": 19725,
+   "cycle": 36032,
+   "rho": 55757
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 0,
+   "run": 7,
+   "tail": 10488,
+   "cycle": 36032,
+   "rho": 46520
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 1,
+   "run": 0,
+   "tail": 64737,
+   "cycle": 19056,
+   "rho": 83793
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 1,
+   "run": 1,
+   "tail": 105089,
+   "cycle": 19056,
+   "rho": 124145
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 1,
+   "run": 2,
+   "tail": 25497,
+   "cycle": 19056,
+   "rho": 44553
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 1,
+   "run": 3,
+   "tail": 115448,
+   "cycle": 19056,
+   "rho": 134504
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 1,
+   "run": 4,
+   "tail": 87249,
+   "cycle": 19056,
+   "rho": 106305
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 1,
+   "run": 5,
+   "tail": 95692,
+   "cycle": 19056,
+   "rho": 114748
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 1,
+   "run": 6,
+   "tail": 100518,
+   "cycle": 19056,
+   "rho": 119574
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 1,
+   "run": 7,
+   "tail": 68229,
+   "cycle": 19056,
+   "rho": 87285
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 2,
+   "run": 0,
+   "tail": 91567,
+   "cycle": 23845,
+   "rho": 115412
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 2,
+   "run": 1,
+   "tail": 91171,
+   "cycle": 23845,
+   "rho": 115016
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 2,
+   "run": 2,
+   "tail": 48792,
+   "cycle": 23845,
+   "rho": 72637
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 2,
+   "run": 3,
+   "tail": 34057,
+   "cycle": 16050,
+   "rho": 50107
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 2,
+   "run": 4,
+   "tail": 78437,
+   "cycle": 23845,
+   "rho": 102282
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 2,
+   "run": 5,
+   "tail": 86020,
+   "cycle": 23845,
+   "rho": 109865
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 2,
+   "run": 6,
+   "tail": 13469,
+   "cycle": 16050,
+   "rho": 29519
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 2,
+   "run": 7,
+   "tail": 39145,
+   "cycle": 23845,
+   "rho": 62990
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 3,
+   "run": 0,
+   "tail": 91374,
+   "cycle": 7350,
+   "rho": 98724
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 3,
+   "run": 1,
+   "tail": 32638,
+   "cycle": 17209,
+   "rho": 49847
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 3,
+   "run": 2,
+   "tail": 92188,
+   "cycle": 7350,
+   "rho": 99538
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 3,
+   "run": 3,
+   "tail": 81910,
+   "cycle": 7350,
+   "rho": 89260
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 3,
+   "run": 4,
+   "tail": 102968,
+   "cycle": 7350,
+   "rho": 110318
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 3,
+   "run": 5,
+   "tail": 83946,
+   "cycle": 7350,
+   "rho": 91296
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 3,
+   "run": 6,
+   "tail": 78882,
+   "cycle": 7350,
+   "rho": 86232
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 3,
+   "run": 7,
+   "tail": 77111,
+   "cycle": 7350,
+   "rho": 84461
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 4,
+   "run": 0,
+   "tail": 62382,
+   "cycle": 4927,
+   "rho": 67309
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 4,
+   "run": 1,
+   "tail": 49319,
+   "cycle": 4927,
+   "rho": 54246
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 4,
+   "run": 2,
+   "tail": 66970,
+   "cycle": 4927,
+   "rho": 71897
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 4,
+   "run": 3,
+   "tail": 109191,
+   "cycle": 4927,
+   "rho": 114118
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 4,
+   "run": 4,
+   "tail": 95065,
+   "cycle": 4927,
+   "rho": 99992
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 4,
+   "run": 5,
+   "tail": 75003,
+   "cycle": 4927,
+   "rho": 79930
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 4,
+   "run": 6,
+   "tail": 12524,
+   "cycle": 4927,
+   "rho": 17451
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 4,
+   "run": 7,
+   "tail": 17053,
+   "cycle": 4927,
+   "rho": 21980
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 5,
+   "run": 0,
+   "tail": 17145,
+   "cycle": 19602,
+   "rho": 36747
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 5,
+   "run": 1,
+   "tail": 62762,
+   "cycle": 19602,
+   "rho": 82364
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 5,
+   "run": 2,
+   "tail": 86830,
+   "cycle": 19602,
+   "rho": 106432
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 5,
+   "run": 3,
+   "tail": 72801,
+   "cycle": 19602,
+   "rho": 92403
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 5,
+   "run": 4,
+   "tail": 69432,
+   "cycle": 77684,
+   "rho": 147116
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 5,
+   "run": 5,
+   "tail": 64318,
+   "cycle": 19602,
+   "rho": 83920
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 5,
+   "run": 6,
+   "tail": 8494,
+   "cycle": 77684,
+   "rho": 86178
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 5,
+   "run": 7,
+   "tail": 40185,
+   "cycle": 19602,
+   "rho": 59787
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 6,
+   "run": 0,
+   "tail": 11011,
+   "cycle": 43687,
+   "rho": 54698
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 6,
+   "run": 1,
+   "tail": 58353,
+   "cycle": 43687,
+   "rho": 102040
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 6,
+   "run": 2,
+   "tail": 42475,
+   "cycle": 43687,
+   "rho": 86162
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 6,
+   "run": 3,
+   "tail": 49032,
+   "cycle": 43687,
+   "rho": 92719
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 6,
+   "run": 4,
+   "tail": 46192,
+   "cycle": 43687,
+   "rho": 89879
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 6,
+   "run": 5,
+   "tail": 18227,
+   "cycle": 43687,
+   "rho": 61914
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 6,
+   "run": 6,
+   "tail": 5258,
+   "cycle": 43687,
+   "rho": 48945
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 6,
+   "run": 7,
+   "tail": 41654,
+   "cycle": 43687,
+   "rho": 85341
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 7,
+   "run": 0,
+   "tail": 24917,
+   "cycle": 23775,
+   "rho": 48692
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 7,
+   "run": 1,
+   "tail": 554,
+   "cycle": 23775,
+   "rho": 24329
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 7,
+   "run": 2,
+   "tail": 73986,
+   "cycle": 23775,
+   "rho": 97761
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 7,
+   "run": 3,
+   "tail": 29139,
+   "cycle": 3449,
+   "rho": 32588
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 7,
+   "run": 4,
+   "tail": 72298,
+   "cycle": 23775,
+   "rho": 96073
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 7,
+   "run": 5,
+   "tail": 26973,
+   "cycle": 3449,
+   "rho": 30422
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 7,
+   "run": 6,
+   "tail": 22271,
+   "cycle": 23775,
+   "rho": 46046
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 7,
+   "run": 7,
+   "tail": 11371,
+   "cycle": 23775,
+   "rho": 35146
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 8,
+   "run": 0,
+   "tail": 114219,
+   "cycle": 11243,
+   "rho": 125462
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 8,
+   "run": 1,
+   "tail": 42621,
+   "cycle": 11243,
+   "rho": 53864
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 8,
+   "run": 2,
+   "tail": 20738,
+   "cycle": 11243,
+   "rho": 31981
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 8,
+   "run": 3,
+   "tail": 41744,
+   "cycle": 11243,
+   "rho": 52987
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 8,
+   "run": 4,
+   "tail": 68175,
+   "cycle": 11243,
+   "rho": 79418
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 8,
+   "run": 5,
+   "tail": 13263,
+   "cycle": 12337,
+   "rho": 25600
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 8,
+   "run": 6,
+   "tail": 61744,
+   "cycle": 11243,
+   "rho": 72987
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 8,
+   "run": 7,
+   "tail": 61808,
+   "cycle": 11243,
+   "rho": 73051
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 9,
+   "run": 0,
+   "tail": 9484,
+   "cycle": 15997,
+   "rho": 25481
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 9,
+   "run": 1,
+   "tail": 63087,
+   "cycle": 15997,
+   "rho": 79084
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 9,
+   "run": 2,
+   "tail": 48628,
+   "cycle": 15997,
+   "rho": 64625
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 9,
+   "run": 3,
+   "tail": 372,
+   "cycle": 1576,
+   "rho": 1948
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 9,
+   "run": 4,
+   "tail": 8204,
+   "cycle": 15997,
+   "rho": 24201
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 9,
+   "run": 5,
+   "tail": 50431,
+   "cycle": 15997,
+   "rho": 66428
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 9,
+   "run": 6,
+   "tail": 15330,
+   "cycle": 15997,
+   "rho": 31327
+  },
+  {
+   "q": 4,
+   "condition": "fam2_s1_nearest",
+   "profile": 9,
+   "run": 7,
+   "tail": 13735,
+   "cycle": 15997,
+   "rho": 29732
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 0,
+   "run": 0,
+   "tail": 12550,
+   "cycle": 112405,
+   "rho": 124955
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 0,
+   "run": 1,
+   "tail": 53631,
+   "cycle": 112405,
+   "rho": 166036
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 0,
+   "run": 2,
+   "tail": 7304,
+   "cycle": 112405,
+   "rho": 119709
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 0,
+   "run": 3,
+   "tail": 16832,
+   "cycle": 112405,
+   "rho": 129237
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 0,
+   "run": 4,
+   "tail": 5233,
+   "cycle": 112405,
+   "rho": 117638
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 0,
+   "run": 5,
+   "tail": 42063,
+   "cycle": 112405,
+   "rho": 154468
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 0,
+   "run": 6,
+   "tail": 46224,
+   "cycle": 112405,
+   "rho": 158629
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 0,
+   "run": 7,
+   "tail": 6712,
+   "cycle": 112405,
+   "rho": 119117
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 1,
+   "run": 0,
+   "tail": 6017,
+   "cycle": 36255,
+   "rho": 42272
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 1,
+   "run": 1,
+   "tail": 24510,
+   "cycle": 36255,
+   "rho": 60765
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 1,
+   "run": 2,
+   "tail": 4210,
+   "cycle": 2421,
+   "rho": 6631
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 1,
+   "run": 3,
+   "tail": 8939,
+   "cycle": 2421,
+   "rho": 11360
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 1,
+   "run": 4,
+   "tail": 29247,
+   "cycle": 36255,
+   "rho": 65502
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 1,
+   "run": 5,
+   "tail": 4796,
+   "cycle": 36255,
+   "rho": 41051
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 1,
+   "run": 6,
+   "tail": 14354,
+   "cycle": 36255,
+   "rho": 50609
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 1,
+   "run": 7,
+   "tail": 3697,
+   "cycle": 36255,
+   "rho": 39952
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 2,
+   "run": 0,
+   "tail": 68467,
+   "cycle": 46416,
+   "rho": 114883
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 2,
+   "run": 1,
+   "tail": 22160,
+   "cycle": 49318,
+   "rho": 71478
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 2,
+   "run": 2,
+   "tail": 27780,
+   "cycle": 46416,
+   "rho": 74196
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 2,
+   "run": 3,
+   "tail": 16116,
+   "cycle": 49318,
+   "rho": 65434
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 2,
+   "run": 4,
+   "tail": 26803,
+   "cycle": 46416,
+   "rho": 73219
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 2,
+   "run": 5,
+   "tail": 9498,
+   "cycle": 49318,
+   "rho": 58816
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 2,
+   "run": 6,
+   "tail": 24729,
+   "cycle": 49318,
+   "rho": 74047
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 2,
+   "run": 7,
+   "tail": 7160,
+   "cycle": 49318,
+   "rho": 56478
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 3,
+   "run": 0,
+   "tail": 24410,
+   "cycle": 166162,
+   "rho": 190572
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 3,
+   "run": 1,
+   "tail": 1219,
+   "cycle": 166162,
+   "rho": 167381
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 3,
+   "run": 2,
+   "tail": 5169,
+   "cycle": 166162,
+   "rho": 171331
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 3,
+   "run": 3,
+   "tail": 27575,
+   "cycle": 166162,
+   "rho": 193737
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 3,
+   "run": 4,
+   "tail": 81,
+   "cycle": 8926,
+   "rho": 9007
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 3,
+   "run": 5,
+   "tail": 2917,
+   "cycle": 166162,
+   "rho": 169079
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 3,
+   "run": 6,
+   "tail": 8084,
+   "cycle": 166162,
+   "rho": 174246
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 3,
+   "run": 7,
+   "tail": 215,
+   "cycle": 12173,
+   "rho": 12388
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 4,
+   "run": 0,
+   "tail": 95068,
+   "cycle": 107608,
+   "rho": 202676
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 4,
+   "run": 1,
+   "tail": 47971,
+   "cycle": 107608,
+   "rho": 155579
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 4,
+   "run": 2,
+   "tail": 3605,
+   "cycle": 107608,
+   "rho": 111213
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 4,
+   "run": 3,
+   "tail": 10923,
+   "cycle": 107608,
+   "rho": 118531
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 4,
+   "run": 4,
+   "tail": 1942,
+   "cycle": 107608,
+   "rho": 109550
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 4,
+   "run": 5,
+   "tail": 7608,
+   "cycle": 107608,
+   "rho": 115216
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 4,
+   "run": 6,
+   "tail": 23034,
+   "cycle": 107608,
+   "rho": 130642
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 4,
+   "run": 7,
+   "tail": 3838,
+   "cycle": 107608,
+   "rho": 111446
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 5,
+   "run": 0,
+   "tail": 55075,
+   "cycle": 30546,
+   "rho": 85621
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 5,
+   "run": 1,
+   "tail": 324,
+   "cycle": 83086,
+   "rho": 83410
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 5,
+   "run": 2,
+   "tail": 29453,
+   "cycle": 30546,
+   "rho": 59999
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 5,
+   "run": 3,
+   "tail": 34432,
+   "cycle": 30546,
+   "rho": 64978
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 5,
+   "run": 4,
+   "tail": 15583,
+   "cycle": 30546,
+   "rho": 46129
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 5,
+   "run": 5,
+   "tail": 74491,
+   "cycle": 30546,
+   "rho": 105037
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 5,
+   "run": 6,
+   "tail": 55781,
+   "cycle": 30546,
+   "rho": 86327
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 5,
+   "run": 7,
+   "tail": 45646,
+   "cycle": 30546,
+   "rho": 76192
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 6,
+   "run": 0,
+   "tail": 42148,
+   "cycle": 153066,
+   "rho": 195214
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 6,
+   "run": 1,
+   "tail": 5575,
+   "cycle": 153066,
+   "rho": 158641
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 6,
+   "run": 2,
+   "tail": 8024,
+   "cycle": 153066,
+   "rho": 161090
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 6,
+   "run": 3,
+   "tail": 10588,
+   "cycle": 31230,
+   "rho": 41818
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 6,
+   "run": 4,
+   "tail": 11133,
+   "cycle": 31230,
+   "rho": 42363
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 6,
+   "run": 5,
+   "tail": 3430,
+   "cycle": 153066,
+   "rho": 156496
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 6,
+   "run": 6,
+   "tail": 11207,
+   "cycle": 31230,
+   "rho": 42437
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 6,
+   "run": 7,
+   "tail": 51538,
+   "cycle": 153066,
+   "rho": 204604
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 7,
+   "run": 0,
+   "tail": 53891,
+   "cycle": 65422,
+   "rho": 119313
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 7,
+   "run": 1,
+   "tail": 3866,
+   "cycle": 65422,
+   "rho": 69288
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 7,
+   "run": 2,
+   "tail": 56982,
+   "cycle": 65422,
+   "rho": 122404
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 7,
+   "run": 3,
+   "tail": 3561,
+   "cycle": 18795,
+   "rho": 22356
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 7,
+   "run": 4,
+   "tail": 34772,
+   "cycle": 65422,
+   "rho": 100194
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 7,
+   "run": 5,
+   "tail": 42572,
+   "cycle": 65422,
+   "rho": 107994
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 7,
+   "run": 6,
+   "tail": 20633,
+   "cycle": 65422,
+   "rho": 86055
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 7,
+   "run": 7,
+   "tail": 20029,
+   "cycle": 18795,
+   "rho": 38824
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 8,
+   "run": 0,
+   "tail": 23402,
+   "cycle": 44684,
+   "rho": 68086
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 8,
+   "run": 1,
+   "tail": 14676,
+   "cycle": 44684,
+   "rho": 59360
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 8,
+   "run": 2,
+   "tail": 31965,
+   "cycle": 44684,
+   "rho": 76649
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 8,
+   "run": 3,
+   "tail": 39761,
+   "cycle": 44684,
+   "rho": 84445
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 8,
+   "run": 4,
+   "tail": 636,
+   "cycle": 44684,
+   "rho": 45320
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 8,
+   "run": 5,
+   "tail": 24908,
+   "cycle": 44684,
+   "rho": 69592
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 8,
+   "run": 6,
+   "tail": 35776,
+   "cycle": 44684,
+   "rho": 80460
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 8,
+   "run": 7,
+   "tail": 52425,
+   "cycle": 44684,
+   "rho": 97109
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 9,
+   "run": 0,
+   "tail": 8979,
+   "cycle": 255756,
+   "rho": 264735
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 9,
+   "run": 1,
+   "tail": 20110,
+   "cycle": 255756,
+   "rho": 275866
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 9,
+   "run": 2,
+   "tail": 18991,
+   "cycle": 255756,
+   "rho": 274747
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 9,
+   "run": 3,
+   "tail": 12471,
+   "cycle": 255756,
+   "rho": 268227
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 9,
+   "run": 4,
+   "tail": 1431,
+   "cycle": 255756,
+   "rho": 257187
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 9,
+   "run": 5,
+   "tail": 13568,
+   "cycle": 255756,
+   "rho": 269324
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 9,
+   "run": 6,
+   "tail": 2639,
+   "cycle": 255756,
+   "rho": 258395
+  },
+  {
+   "q": 4,
+   "condition": "fam3_s1_nearest",
+   "profile": 9,
+   "run": 7,
+   "tail": 5750,
+   "cycle": 255756,
+   "rho": 261506
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 0,
+   "run": 0,
+   "tail": 28814,
+   "cycle": 36464,
+   "rho": 65278
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 0,
+   "run": 1,
+   "tail": 206,
+   "cycle": 6543,
+   "rho": 6749
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 0,
+   "run": 2,
+   "tail": 40225,
+   "cycle": 60923,
+   "rho": 101148
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 0,
+   "run": 3,
+   "tail": 5045,
+   "cycle": 60923,
+   "rho": 65968
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 0,
+   "run": 4,
+   "tail": 4871,
+   "cycle": 36464,
+   "rho": 41335
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 0,
+   "run": 5,
+   "tail": 12551,
+   "cycle": 60923,
+   "rho": 73474
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 0,
+   "run": 6,
+   "tail": 1909,
+   "cycle": 60923,
+   "rho": 62832
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 0,
+   "run": 7,
+   "tail": 16871,
+   "cycle": 60923,
+   "rho": 77794
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 1,
+   "run": 0,
+   "tail": 95312,
+   "cycle": 15793,
+   "rho": 111105
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 1,
+   "run": 1,
+   "tail": 78069,
+   "cycle": 15793,
+   "rho": 93862
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 1,
+   "run": 2,
+   "tail": 102197,
+   "cycle": 15793,
+   "rho": 117990
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 1,
+   "run": 3,
+   "tail": 80273,
+   "cycle": 15793,
+   "rho": 96066
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 1,
+   "run": 4,
+   "tail": 62781,
+   "cycle": 15793,
+   "rho": 78574
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 1,
+   "run": 5,
+   "tail": 165954,
+   "cycle": 15793,
+   "rho": 181747
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 1,
+   "run": 6,
+   "tail": 125153,
+   "cycle": 15793,
+   "rho": 140946
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 1,
+   "run": 7,
+   "tail": 103725,
+   "cycle": 15793,
+   "rho": 119518
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 2,
+   "run": 0,
+   "tail": 78220,
+   "cycle": 61336,
+   "rho": 139556
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 2,
+   "run": 1,
+   "tail": 21088,
+   "cycle": 61336,
+   "rho": 82424
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 2,
+   "run": 2,
+   "tail": 62812,
+   "cycle": 61336,
+   "rho": 124148
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 2,
+   "run": 3,
+   "tail": 88876,
+   "cycle": 61336,
+   "rho": 150212
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 2,
+   "run": 4,
+   "tail": 15353,
+   "cycle": 61336,
+   "rho": 76689
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 2,
+   "run": 5,
+   "tail": 36901,
+   "cycle": 61336,
+   "rho": 98237
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 2,
+   "run": 6,
+   "tail": 74021,
+   "cycle": 61336,
+   "rho": 135357
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 2,
+   "run": 7,
+   "tail": 50628,
+   "cycle": 61336,
+   "rho": 111964
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 3,
+   "run": 0,
+   "tail": 117526,
+   "cycle": 4776,
+   "rho": 122302
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 3,
+   "run": 1,
+   "tail": 31808,
+   "cycle": 4776,
+   "rho": 36584
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 3,
+   "run": 2,
+   "tail": 137248,
+   "cycle": 4776,
+   "rho": 142024
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 3,
+   "run": 3,
+   "tail": 345,
+   "cycle": 3704,
+   "rho": 4049
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 3,
+   "run": 4,
+   "tail": 81662,
+   "cycle": 4776,
+   "rho": 86438
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 3,
+   "run": 5,
+   "tail": 58967,
+   "cycle": 4776,
+   "rho": 63743
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 3,
+   "run": 6,
+   "tail": 56822,
+   "cycle": 4776,
+   "rho": 61598
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 3,
+   "run": 7,
+   "tail": 63157,
+   "cycle": 4776,
+   "rho": 67933
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 4,
+   "run": 0,
+   "tail": 4334,
+   "cycle": 60607,
+   "rho": 64941
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 4,
+   "run": 1,
+   "tail": 65230,
+   "cycle": 23220,
+   "rho": 88450
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 4,
+   "run": 2,
+   "tail": 26773,
+   "cycle": 60607,
+   "rho": 87380
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 4,
+   "run": 3,
+   "tail": 17726,
+   "cycle": 60607,
+   "rho": 78333
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 4,
+   "run": 4,
+   "tail": 11517,
+   "cycle": 8902,
+   "rho": 20419
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 4,
+   "run": 5,
+   "tail": 12535,
+   "cycle": 60607,
+   "rho": 73142
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 4,
+   "run": 6,
+   "tail": 53414,
+   "cycle": 23220,
+   "rho": 76634
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 4,
+   "run": 7,
+   "tail": 6313,
+   "cycle": 60607,
+   "rho": 66920
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 5,
+   "run": 0,
+   "tail": 49418,
+   "cycle": 4843,
+   "rho": 54261
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 5,
+   "run": 1,
+   "tail": 85941,
+   "cycle": 4843,
+   "rho": 90784
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 5,
+   "run": 2,
+   "tail": 31911,
+   "cycle": 4843,
+   "rho": 36754
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 5,
+   "run": 3,
+   "tail": 43509,
+   "cycle": 4843,
+   "rho": 48352
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 5,
+   "run": 4,
+   "tail": 9472,
+   "cycle": 18213,
+   "rho": 27685
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 5,
+   "run": 5,
+   "tail": 92722,
+   "cycle": 4843,
+   "rho": 97565
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 5,
+   "run": 6,
+   "tail": 94016,
+   "cycle": 4843,
+   "rho": 98859
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 5,
+   "run": 7,
+   "tail": 71842,
+   "cycle": 4843,
+   "rho": 76685
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 6,
+   "run": 0,
+   "tail": 99854,
+   "cycle": 42610,
+   "rho": 142464
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 6,
+   "run": 1,
+   "tail": 112934,
+   "cycle": 42610,
+   "rho": 155544
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 6,
+   "run": 2,
+   "tail": 67373,
+   "cycle": 42610,
+   "rho": 109983
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 6,
+   "run": 3,
+   "tail": 6922,
+   "cycle": 6268,
+   "rho": 13190
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 6,
+   "run": 4,
+   "tail": 88134,
+   "cycle": 42610,
+   "rho": 130744
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 6,
+   "run": 5,
+   "tail": 7043,
+   "cycle": 42610,
+   "rho": 49653
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 6,
+   "run": 6,
+   "tail": 24153,
+   "cycle": 42610,
+   "rho": 66763
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 6,
+   "run": 7,
+   "tail": 9191,
+   "cycle": 6268,
+   "rho": 15459
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 7,
+   "run": 0,
+   "tail": 16380,
+   "cycle": 41769,
+   "rho": 58149
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 7,
+   "run": 1,
+   "tail": 56589,
+   "cycle": 1981,
+   "rho": 58570
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 7,
+   "run": 2,
+   "tail": 106477,
+   "cycle": 1981,
+   "rho": 108458
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 7,
+   "run": 3,
+   "tail": 76594,
+   "cycle": 1981,
+   "rho": 78575
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 7,
+   "run": 4,
+   "tail": 99708,
+   "cycle": 1981,
+   "rho": 101689
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 7,
+   "run": 5,
+   "tail": 78901,
+   "cycle": 1981,
+   "rho": 80882
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 7,
+   "run": 6,
+   "tail": 76686,
+   "cycle": 1981,
+   "rho": 78667
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 7,
+   "run": 7,
+   "tail": 73614,
+   "cycle": 1981,
+   "rho": 75595
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 8,
+   "run": 0,
+   "tail": 90732,
+   "cycle": 54266,
+   "rho": 144998
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 8,
+   "run": 1,
+   "tail": 9165,
+   "cycle": 54266,
+   "rho": 63431
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 8,
+   "run": 2,
+   "tail": 66064,
+   "cycle": 54266,
+   "rho": 120330
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 8,
+   "run": 3,
+   "tail": 55429,
+   "cycle": 54266,
+   "rho": 109695
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 8,
+   "run": 4,
+   "tail": 49150,
+   "cycle": 54266,
+   "rho": 103416
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 8,
+   "run": 5,
+   "tail": 3823,
+   "cycle": 54266,
+   "rho": 58089
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 8,
+   "run": 6,
+   "tail": 1811,
+   "cycle": 54266,
+   "rho": 56077
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 8,
+   "run": 7,
+   "tail": 31302,
+   "cycle": 54266,
+   "rho": 85568
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 9,
+   "run": 0,
+   "tail": 88460,
+   "cycle": 9293,
+   "rho": 97753
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 9,
+   "run": 1,
+   "tail": 20646,
+   "cycle": 9293,
+   "rho": 29939
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 9,
+   "run": 2,
+   "tail": 102952,
+   "cycle": 9293,
+   "rho": 112245
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 9,
+   "run": 3,
+   "tail": 77289,
+   "cycle": 9293,
+   "rho": 86582
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 9,
+   "run": 4,
+   "tail": 102644,
+   "cycle": 9293,
+   "rho": 111937
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 9,
+   "run": 5,
+   "tail": 74016,
+   "cycle": 9293,
+   "rho": 83309
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 9,
+   "run": 6,
+   "tail": 96390,
+   "cycle": 9293,
+   "rho": 105683
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s1_truncation",
+   "profile": 9,
+   "run": 7,
+   "tail": 54846,
+   "cycle": 9293,
+   "rho": 64139
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 0,
+   "run": 0,
+   "tail": 128205,
+   "cycle": 52674,
+   "rho": 180879
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 0,
+   "run": 1,
+   "tail": 118045,
+   "cycle": 52674,
+   "rho": 170719
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 0,
+   "run": 2,
+   "tail": 9063,
+   "cycle": 52674,
+   "rho": 61737
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 0,
+   "run": 3,
+   "tail": 152316,
+   "cycle": 52674,
+   "rho": 204990
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 0,
+   "run": 4,
+   "tail": 90665,
+   "cycle": 52674,
+   "rho": 143339
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 0,
+   "run": 5,
+   "tail": 115344,
+   "cycle": 52674,
+   "rho": 168018
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 0,
+   "run": 6,
+   "tail": 103481,
+   "cycle": 52674,
+   "rho": 156155
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 0,
+   "run": 7,
+   "tail": 71056,
+   "cycle": 52674,
+   "rho": 123730
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 1,
+   "run": 0,
+   "tail": 85129,
+   "cycle": 6816,
+   "rho": 91945
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 1,
+   "run": 1,
+   "tail": 72299,
+   "cycle": 6816,
+   "rho": 79115
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 1,
+   "run": 2,
+   "tail": 17670,
+   "cycle": 6816,
+   "rho": 24486
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 1,
+   "run": 3,
+   "tail": 71196,
+   "cycle": 6816,
+   "rho": 78012
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 1,
+   "run": 4,
+   "tail": 67456,
+   "cycle": 6816,
+   "rho": 74272
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 1,
+   "run": 5,
+   "tail": 50874,
+   "cycle": 6816,
+   "rho": 57690
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 1,
+   "run": 6,
+   "tail": 31102,
+   "cycle": 6816,
+   "rho": 37918
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 1,
+   "run": 7,
+   "tail": 48086,
+   "cycle": 6816,
+   "rho": 54902
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 2,
+   "run": 0,
+   "tail": 15391,
+   "cycle": 58681,
+   "rho": 74072
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 2,
+   "run": 1,
+   "tail": 9506,
+   "cycle": 32392,
+   "rho": 41898
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 2,
+   "run": 2,
+   "tail": 25712,
+   "cycle": 58681,
+   "rho": 84393
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 2,
+   "run": 3,
+   "tail": 18604,
+   "cycle": 58681,
+   "rho": 77285
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 2,
+   "run": 4,
+   "tail": 7640,
+   "cycle": 58681,
+   "rho": 66321
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 2,
+   "run": 5,
+   "tail": 33144,
+   "cycle": 32392,
+   "rho": 65536
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 2,
+   "run": 6,
+   "tail": 64830,
+   "cycle": 32392,
+   "rho": 97222
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 2,
+   "run": 7,
+   "tail": 34458,
+   "cycle": 58681,
+   "rho": 93139
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 3,
+   "run": 0,
+   "tail": 97941,
+   "cycle": 3742,
+   "rho": 101683
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 3,
+   "run": 1,
+   "tail": 96320,
+   "cycle": 3742,
+   "rho": 100062
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 3,
+   "run": 2,
+   "tail": 128711,
+   "cycle": 3742,
+   "rho": 132453
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 3,
+   "run": 3,
+   "tail": 111584,
+   "cycle": 3742,
+   "rho": 115326
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 3,
+   "run": 4,
+   "tail": 97760,
+   "cycle": 3742,
+   "rho": 101502
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 3,
+   "run": 5,
+   "tail": 129856,
+   "cycle": 3742,
+   "rho": 133598
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 3,
+   "run": 6,
+   "tail": 108802,
+   "cycle": 3742,
+   "rho": 112544
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 3,
+   "run": 7,
+   "tail": 96238,
+   "cycle": 3742,
+   "rho": 99980
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 4,
+   "run": 0,
+   "tail": 125441,
+   "cycle": 7222,
+   "rho": 132663
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 4,
+   "run": 1,
+   "tail": 54983,
+   "cycle": 6859,
+   "rho": 61842
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 4,
+   "run": 2,
+   "tail": 46517,
+   "cycle": 6859,
+   "rho": 53376
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 4,
+   "run": 3,
+   "tail": 19377,
+   "cycle": 6859,
+   "rho": 26236
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 4,
+   "run": 4,
+   "tail": 26070,
+   "cycle": 7222,
+   "rho": 33292
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 4,
+   "run": 5,
+   "tail": 12026,
+   "cycle": 6859,
+   "rho": 18885
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 4,
+   "run": 6,
+   "tail": 62507,
+   "cycle": 6859,
+   "rho": 69366
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 4,
+   "run": 7,
+   "tail": 116421,
+   "cycle": 7222,
+   "rho": 123643
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 5,
+   "run": 0,
+   "tail": 42581,
+   "cycle": 20155,
+   "rho": 62736
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 5,
+   "run": 1,
+   "tail": 13653,
+   "cycle": 952,
+   "rho": 14605
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 5,
+   "run": 2,
+   "tail": 19802,
+   "cycle": 952,
+   "rho": 20754
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 5,
+   "run": 3,
+   "tail": 16860,
+   "cycle": 20155,
+   "rho": 37015
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 5,
+   "run": 4,
+   "tail": 48780,
+   "cycle": 20155,
+   "rho": 68935
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 5,
+   "run": 5,
+   "tail": 37492,
+   "cycle": 20155,
+   "rho": 57647
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 5,
+   "run": 6,
+   "tail": 40884,
+   "cycle": 20155,
+   "rho": 61039
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 5,
+   "run": 7,
+   "tail": 65091,
+   "cycle": 20155,
+   "rho": 85246
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 6,
+   "run": 0,
+   "tail": 92752,
+   "cycle": 10614,
+   "rho": 103366
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 6,
+   "run": 1,
+   "tail": 52708,
+   "cycle": 10614,
+   "rho": 63322
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 6,
+   "run": 2,
+   "tail": 54047,
+   "cycle": 88771,
+   "rho": 142818
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 6,
+   "run": 3,
+   "tail": 9844,
+   "cycle": 88771,
+   "rho": 98615
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 6,
+   "run": 4,
+   "tail": 1523,
+   "cycle": 10614,
+   "rho": 12137
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 6,
+   "run": 5,
+   "tail": 53819,
+   "cycle": 88771,
+   "rho": 142590
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 6,
+   "run": 6,
+   "tail": 6812,
+   "cycle": 88771,
+   "rho": 95583
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 6,
+   "run": 7,
+   "tail": 55338,
+   "cycle": 10614,
+   "rho": 65952
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 7,
+   "run": 0,
+   "tail": 29729,
+   "cycle": 19545,
+   "rho": 49274
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 7,
+   "run": 1,
+   "tail": 25506,
+   "cycle": 19545,
+   "rho": 45051
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 7,
+   "run": 2,
+   "tail": 87548,
+   "cycle": 19545,
+   "rho": 107093
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 7,
+   "run": 3,
+   "tail": 2918,
+   "cycle": 19545,
+   "rho": 22463
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 7,
+   "run": 4,
+   "tail": 73646,
+   "cycle": 19545,
+   "rho": 93191
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 7,
+   "run": 5,
+   "tail": 34413,
+   "cycle": 19545,
+   "rho": 53958
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 7,
+   "run": 6,
+   "tail": 12339,
+   "cycle": 19545,
+   "rho": 31884
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 7,
+   "run": 7,
+   "tail": 36084,
+   "cycle": 19545,
+   "rho": 55629
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 8,
+   "run": 0,
+   "tail": 124033,
+   "cycle": 28201,
+   "rho": 152234
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 8,
+   "run": 1,
+   "tail": 51190,
+   "cycle": 28201,
+   "rho": 79391
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 8,
+   "run": 2,
+   "tail": 83115,
+   "cycle": 28201,
+   "rho": 111316
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 8,
+   "run": 3,
+   "tail": 49274,
+   "cycle": 28201,
+   "rho": 77475
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 8,
+   "run": 4,
+   "tail": 4114,
+   "cycle": 9558,
+   "rho": 13672
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 8,
+   "run": 5,
+   "tail": 127029,
+   "cycle": 28201,
+   "rho": 155230
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 8,
+   "run": 6,
+   "tail": 109696,
+   "cycle": 28201,
+   "rho": 137897
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 8,
+   "run": 7,
+   "tail": 118831,
+   "cycle": 28201,
+   "rho": 147032
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 9,
+   "run": 0,
+   "tail": 61591,
+   "cycle": 9788,
+   "rho": 71379
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 9,
+   "run": 1,
+   "tail": 87246,
+   "cycle": 9788,
+   "rho": 97034
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 9,
+   "run": 2,
+   "tail": 1507,
+   "cycle": 4079,
+   "rho": 5586
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 9,
+   "run": 3,
+   "tail": 57741,
+   "cycle": 9788,
+   "rho": 67529
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 9,
+   "run": 4,
+   "tail": 80532,
+   "cycle": 9788,
+   "rho": 90320
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 9,
+   "run": 5,
+   "tail": 80886,
+   "cycle": 9788,
+   "rho": 90674
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 9,
+   "run": 6,
+   "tail": 34446,
+   "cycle": 9788,
+   "rho": 44234
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 9,
+   "run": 7,
+   "tail": 64630,
+   "cycle": 9788,
+   "rho": 74418
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 0,
+   "run": 0,
+   "tail": 44117,
+   "cycle": 29512,
+   "rho": 73629
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 0,
+   "run": 1,
+   "tail": 43311,
+   "cycle": 13849,
+   "rho": 57160
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 0,
+   "run": 2,
+   "tail": 62436,
+   "cycle": 13849,
+   "rho": 76285
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 0,
+   "run": 3,
+   "tail": 35342,
+   "cycle": 29512,
+   "rho": 64854
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 0,
+   "run": 4,
+   "tail": 109531,
+   "cycle": 13849,
+   "rho": 123380
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 0,
+   "run": 5,
+   "tail": 86620,
+   "cycle": 13849,
+   "rho": 100469
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 0,
+   "run": 6,
+   "tail": 109457,
+   "cycle": 13849,
+   "rho": 123306
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 0,
+   "run": 7,
+   "tail": 69690,
+   "cycle": 13849,
+   "rho": 83539
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 1,
+   "run": 0,
+   "tail": 1257,
+   "cycle": 69957,
+   "rho": 71214
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 1,
+   "run": 1,
+   "tail": 30038,
+   "cycle": 69957,
+   "rho": 99995
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 1,
+   "run": 2,
+   "tail": 3684,
+   "cycle": 5875,
+   "rho": 9559
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 1,
+   "run": 3,
+   "tail": 38250,
+   "cycle": 69957,
+   "rho": 108207
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 1,
+   "run": 4,
+   "tail": 73034,
+   "cycle": 69957,
+   "rho": 142991
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 1,
+   "run": 5,
+   "tail": 11795,
+   "cycle": 69957,
+   "rho": 81752
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 1,
+   "run": 6,
+   "tail": 21757,
+   "cycle": 69957,
+   "rho": 91714
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 1,
+   "run": 7,
+   "tail": 1889,
+   "cycle": 16785,
+   "rho": 18674
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 2,
+   "run": 0,
+   "tail": 13896,
+   "cycle": 52154,
+   "rho": 66050
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 2,
+   "run": 1,
+   "tail": 26666,
+   "cycle": 37249,
+   "rho": 63915
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 2,
+   "run": 2,
+   "tail": 76195,
+   "cycle": 37249,
+   "rho": 113444
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 2,
+   "run": 3,
+   "tail": 25024,
+   "cycle": 37249,
+   "rho": 62273
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 2,
+   "run": 4,
+   "tail": 6178,
+   "cycle": 37249,
+   "rho": 43427
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 2,
+   "run": 5,
+   "tail": 6457,
+   "cycle": 52154,
+   "rho": 58611
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 2,
+   "run": 6,
+   "tail": 48167,
+   "cycle": 52154,
+   "rho": 100321
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 2,
+   "run": 7,
+   "tail": 3036,
+   "cycle": 52154,
+   "rho": 55190
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 3,
+   "run": 0,
+   "tail": 81402,
+   "cycle": 10445,
+   "rho": 91847
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 3,
+   "run": 1,
+   "tail": 51555,
+   "cycle": 10445,
+   "rho": 62000
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 3,
+   "run": 2,
+   "tail": 48366,
+   "cycle": 10445,
+   "rho": 58811
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 3,
+   "run": 3,
+   "tail": 53374,
+   "cycle": 10445,
+   "rho": 63819
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 3,
+   "run": 4,
+   "tail": 48789,
+   "cycle": 10445,
+   "rho": 59234
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 3,
+   "run": 5,
+   "tail": 13690,
+   "cycle": 10445,
+   "rho": 24135
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 3,
+   "run": 6,
+   "tail": 13639,
+   "cycle": 10445,
+   "rho": 24084
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 3,
+   "run": 7,
+   "tail": 22755,
+   "cycle": 2627,
+   "rho": 25382
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 4,
+   "run": 0,
+   "tail": 7190,
+   "cycle": 97484,
+   "rho": 104674
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 4,
+   "run": 1,
+   "tail": 106125,
+   "cycle": 97484,
+   "rho": 203609
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 4,
+   "run": 2,
+   "tail": 34164,
+   "cycle": 97484,
+   "rho": 131648
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 4,
+   "run": 3,
+   "tail": 112707,
+   "cycle": 97484,
+   "rho": 210191
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 4,
+   "run": 4,
+   "tail": 93146,
+   "cycle": 97484,
+   "rho": 190630
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 4,
+   "run": 5,
+   "tail": 8414,
+   "cycle": 97484,
+   "rho": 105898
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 4,
+   "run": 6,
+   "tail": 5138,
+   "cycle": 97484,
+   "rho": 102622
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 4,
+   "run": 7,
+   "tail": 104034,
+   "cycle": 97484,
+   "rho": 201518
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 5,
+   "run": 0,
+   "tail": 8361,
+   "cycle": 113704,
+   "rho": 122065
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 5,
+   "run": 1,
+   "tail": 71747,
+   "cycle": 113704,
+   "rho": 185451
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 5,
+   "run": 2,
+   "tail": 61585,
+   "cycle": 113704,
+   "rho": 175289
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 5,
+   "run": 3,
+   "tail": 13132,
+   "cycle": 113704,
+   "rho": 126836
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 5,
+   "run": 4,
+   "tail": 35585,
+   "cycle": 113704,
+   "rho": 149289
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 5,
+   "run": 5,
+   "tail": 39034,
+   "cycle": 113704,
+   "rho": 152738
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 5,
+   "run": 6,
+   "tail": 33260,
+   "cycle": 113704,
+   "rho": 146964
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 5,
+   "run": 7,
+   "tail": 53981,
+   "cycle": 113704,
+   "rho": 167685
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 6,
+   "run": 0,
+   "tail": 34505,
+   "cycle": 87196,
+   "rho": 121701
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 6,
+   "run": 1,
+   "tail": 23,
+   "cycle": 18278,
+   "rho": 18301
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 6,
+   "run": 2,
+   "tail": 3275,
+   "cycle": 18278,
+   "rho": 21553
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 6,
+   "run": 3,
+   "tail": 9690,
+   "cycle": 18278,
+   "rho": 27968
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 6,
+   "run": 4,
+   "tail": 19774,
+   "cycle": 87196,
+   "rho": 106970
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 6,
+   "run": 5,
+   "tail": 19135,
+   "cycle": 87196,
+   "rho": 106331
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 6,
+   "run": 6,
+   "tail": 16869,
+   "cycle": 87196,
+   "rho": 104065
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 6,
+   "run": 7,
+   "tail": 18288,
+   "cycle": 87196,
+   "rho": 105484
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 7,
+   "run": 0,
+   "tail": 27646,
+   "cycle": 22917,
+   "rho": 50563
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 7,
+   "run": 1,
+   "tail": 42574,
+   "cycle": 22917,
+   "rho": 65491
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 7,
+   "run": 2,
+   "tail": 59858,
+   "cycle": 22917,
+   "rho": 82775
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 7,
+   "run": 3,
+   "tail": 31409,
+   "cycle": 26275,
+   "rho": 57684
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 7,
+   "run": 4,
+   "tail": 53567,
+   "cycle": 22917,
+   "rho": 76484
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 7,
+   "run": 5,
+   "tail": 38660,
+   "cycle": 22917,
+   "rho": 61577
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 7,
+   "run": 6,
+   "tail": 12170,
+   "cycle": 22917,
+   "rho": 35087
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 7,
+   "run": 7,
+   "tail": 38192,
+   "cycle": 26275,
+   "rho": 64467
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 8,
+   "run": 0,
+   "tail": 9526,
+   "cycle": 64558,
+   "rho": 74084
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 8,
+   "run": 1,
+   "tail": 58913,
+   "cycle": 64558,
+   "rho": 123471
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 8,
+   "run": 2,
+   "tail": 69146,
+   "cycle": 64558,
+   "rho": 133704
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 8,
+   "run": 3,
+   "tail": 109445,
+   "cycle": 64558,
+   "rho": 174003
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 8,
+   "run": 4,
+   "tail": 10647,
+   "cycle": 64558,
+   "rho": 75205
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 8,
+   "run": 5,
+   "tail": 19023,
+   "cycle": 64558,
+   "rho": 83581
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 8,
+   "run": 6,
+   "tail": 33523,
+   "cycle": 64558,
+   "rho": 98081
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 8,
+   "run": 7,
+   "tail": 37492,
+   "cycle": 64558,
+   "rho": 102050
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 9,
+   "run": 0,
+   "tail": 29819,
+   "cycle": 9867,
+   "rho": 39686
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 9,
+   "run": 1,
+   "tail": 7706,
+   "cycle": 78592,
+   "rho": 86298
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 9,
+   "run": 2,
+   "tail": 17409,
+   "cycle": 78592,
+   "rho": 96001
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 9,
+   "run": 3,
+   "tail": 6505,
+   "cycle": 78592,
+   "rho": 85097
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 9,
+   "run": 4,
+   "tail": 20499,
+   "cycle": 78592,
+   "rho": 99091
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 9,
+   "run": 5,
+   "tail": 9307,
+   "cycle": 78592,
+   "rho": 87899
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 9,
+   "run": 6,
+   "tail": 7567,
+   "cycle": 78592,
+   "rho": 86159
+  },
+  {
+   "q": 4,
+   "condition": "fam1_s2_nearest",
+   "profile": 9,
+   "run": 7,
+   "tail": 577,
+   "cycle": 78592,
+   "rho": 79169
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 0,
+   "run": 0,
+   "tail": 183524,
+   "cycle": 1015648,
+   "rho": 1199172
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 0,
+   "run": 1,
+   "tail": 28837,
+   "cycle": 1015648,
+   "rho": 1044485
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 0,
+   "run": 2,
+   "tail": 591527,
+   "cycle": 1015648,
+   "rho": 1607175
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 0,
+   "run": 3,
+   "tail": 920739,
+   "cycle": 1015648,
+   "rho": 1936387
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 0,
+   "run": 4,
+   "tail": 647334,
+   "cycle": 1015648,
+   "rho": 1662982
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 0,
+   "run": 5,
+   "tail": 944242,
+   "cycle": 1015648,
+   "rho": 1959890
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 0,
+   "run": 6,
+   "tail": 583802,
+   "cycle": 1015648,
+   "rho": 1599450
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 0,
+   "run": 7,
+   "tail": 830207,
+   "cycle": 1015648,
+   "rho": 1845855
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 1,
+   "run": 0,
+   "tail": 729453,
+   "cycle": 1570854,
+   "rho": 2300307
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 1,
+   "run": 1,
+   "tail": 200979,
+   "cycle": 1570854,
+   "rho": 1771833
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 1,
+   "run": 2,
+   "tail": 89449,
+   "cycle": 1570854,
+   "rho": 1660303
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 1,
+   "run": 3,
+   "tail": 725872,
+   "cycle": 1570854,
+   "rho": 2296726
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 1,
+   "run": 4,
+   "tail": 528062,
+   "cycle": 17833,
+   "rho": 545895
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 1,
+   "run": 5,
+   "tail": 39214,
+   "cycle": 1570854,
+   "rho": 1610068
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 1,
+   "run": 6,
+   "tail": 186854,
+   "cycle": 1570854,
+   "rho": 1757708
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 1,
+   "run": 7,
+   "tail": 421193,
+   "cycle": 17833,
+   "rho": 439026
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 2,
+   "run": 0,
+   "tail": 100255,
+   "cycle": 770929,
+   "rho": 871184
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 2,
+   "run": 1,
+   "tail": 34132,
+   "cycle": 770929,
+   "rho": 805061
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 2,
+   "run": 2,
+   "tail": 674177,
+   "cycle": 836046,
+   "rho": 1510223
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 2,
+   "run": 3,
+   "tail": 88599,
+   "cycle": 836046,
+   "rho": 924645
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 2,
+   "run": 4,
+   "tail": 1177852,
+   "cycle": 770929,
+   "rho": 1948781
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 2,
+   "run": 5,
+   "tail": 223436,
+   "cycle": 770929,
+   "rho": 994365
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 2,
+   "run": 6,
+   "tail": 675900,
+   "cycle": 836046,
+   "rho": 1511946
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 2,
+   "run": 7,
+   "tail": 676603,
+   "cycle": 770929,
+   "rho": 1447532
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 3,
+   "run": 0,
+   "tail": 1245816,
+   "cycle": 363234,
+   "rho": 1609050
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 3,
+   "run": 1,
+   "tail": 1068932,
+   "cycle": 363234,
+   "rho": 1432166
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 3,
+   "run": 2,
+   "tail": 961312,
+   "cycle": 363234,
+   "rho": 1324546
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 3,
+   "run": 3,
+   "tail": 1079558,
+   "cycle": 363234,
+   "rho": 1442792
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 3,
+   "run": 4,
+   "tail": 692168,
+   "cycle": 363234,
+   "rho": 1055402
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 3,
+   "run": 5,
+   "tail": 780577,
+   "cycle": 363234,
+   "rho": 1143811
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 3,
+   "run": 6,
+   "tail": 359846,
+   "cycle": 363234,
+   "rho": 723080
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 3,
+   "run": 7,
+   "tail": 664984,
+   "cycle": 363234,
+   "rho": 1028218
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 4,
+   "run": 0,
+   "tail": 645296,
+   "cycle": 466065,
+   "rho": 1111361
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 4,
+   "run": 1,
+   "tail": 1354015,
+   "cycle": 466065,
+   "rho": 1820080
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 4,
+   "run": 2,
+   "tail": 813255,
+   "cycle": 60195,
+   "rho": 873450
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 4,
+   "run": 3,
+   "tail": 237164,
+   "cycle": 466065,
+   "rho": 703229
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 4,
+   "run": 4,
+   "tail": 1571299,
+   "cycle": 466065,
+   "rho": 2037364
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 4,
+   "run": 5,
+   "tail": 1682752,
+   "cycle": 466065,
+   "rho": 2148817
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 4,
+   "run": 6,
+   "tail": 106206,
+   "cycle": 466065,
+   "rho": 572271
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 4,
+   "run": 7,
+   "tail": 527191,
+   "cycle": 466065,
+   "rho": 993256
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 5,
+   "run": 0,
+   "tail": 31201,
+   "cycle": 667741,
+   "rho": 698942
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 5,
+   "run": 1,
+   "tail": 731973,
+   "cycle": 667741,
+   "rho": 1399714
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 5,
+   "run": 2,
+   "tail": 143385,
+   "cycle": 456607,
+   "rho": 599992
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 5,
+   "run": 3,
+   "tail": 627594,
+   "cycle": 667741,
+   "rho": 1295335
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 5,
+   "run": 4,
+   "tail": 23439,
+   "cycle": 667741,
+   "rho": 691180
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 5,
+   "run": 5,
+   "tail": 903839,
+   "cycle": 667741,
+   "rho": 1571580
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 5,
+   "run": 6,
+   "tail": 1082257,
+   "cycle": 667741,
+   "rho": 1749998
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 5,
+   "run": 7,
+   "tail": 1019813,
+   "cycle": 667741,
+   "rho": 1687554
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 6,
+   "run": 0,
+   "tail": 52494,
+   "cycle": 1137591,
+   "rho": 1190085
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 6,
+   "run": 1,
+   "tail": 703166,
+   "cycle": 1137591,
+   "rho": 1840757
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 6,
+   "run": 2,
+   "tail": 1087104,
+   "cycle": 1137591,
+   "rho": 2224695
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 6,
+   "run": 3,
+   "tail": 607778,
+   "cycle": 1137591,
+   "rho": 1745369
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 6,
+   "run": 4,
+   "tail": 410042,
+   "cycle": 1137591,
+   "rho": 1547633
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 6,
+   "run": 5,
+   "tail": 181640,
+   "cycle": 1137591,
+   "rho": 1319231
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 6,
+   "run": 6,
+   "tail": 737663,
+   "cycle": 1137591,
+   "rho": 1875254
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 6,
+   "run": 7,
+   "tail": 378418,
+   "cycle": 1137591,
+   "rho": 1516009
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 7,
+   "run": 0,
+   "tail": 552501,
+   "cycle": 1873135,
+   "rho": 2425636
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 7,
+   "run": 1,
+   "tail": 64846,
+   "cycle": 241290,
+   "rho": 306136
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 7,
+   "run": 2,
+   "tail": 30120,
+   "cycle": 1873135,
+   "rho": 1903255
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 7,
+   "run": 3,
+   "tail": 1375601,
+   "cycle": 1873135,
+   "rho": 3248736
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 7,
+   "run": 4,
+   "tail": 220349,
+   "cycle": 1873135,
+   "rho": 2093484
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 7,
+   "run": 5,
+   "tail": 42238,
+   "cycle": 1873135,
+   "rho": 1915373
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 7,
+   "run": 6,
+   "tail": 32193,
+   "cycle": 1873135,
+   "rho": 1905328
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 7,
+   "run": 7,
+   "tail": 50366,
+   "cycle": 1873135,
+   "rho": 1923501
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 8,
+   "run": 0,
+   "tail": 134074,
+   "cycle": 549882,
+   "rho": 683956
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 8,
+   "run": 1,
+   "tail": 616564,
+   "cycle": 1109682,
+   "rho": 1726246
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 8,
+   "run": 2,
+   "tail": 150855,
+   "cycle": 1109682,
+   "rho": 1260537
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 8,
+   "run": 3,
+   "tail": 1226629,
+   "cycle": 1109682,
+   "rho": 2336311
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 8,
+   "run": 4,
+   "tail": 184609,
+   "cycle": 549882,
+   "rho": 734491
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 8,
+   "run": 5,
+   "tail": 366077,
+   "cycle": 549882,
+   "rho": 915959
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 8,
+   "run": 6,
+   "tail": 380391,
+   "cycle": 1109682,
+   "rho": 1490073
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 8,
+   "run": 7,
+   "tail": 459718,
+   "cycle": 549882,
+   "rho": 1009600
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 9,
+   "run": 0,
+   "tail": 534779,
+   "cycle": 211386,
+   "rho": 746165
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 9,
+   "run": 1,
+   "tail": 942216,
+   "cycle": 212555,
+   "rho": 1154771
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 9,
+   "run": 2,
+   "tail": 57607,
+   "cycle": 212555,
+   "rho": 270162
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 9,
+   "run": 3,
+   "tail": 787667,
+   "cycle": 211386,
+   "rho": 999053
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 9,
+   "run": 4,
+   "tail": 60173,
+   "cycle": 211386,
+   "rho": 271559
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 9,
+   "run": 5,
+   "tail": 10062,
+   "cycle": 66828,
+   "rho": 76890
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 9,
+   "run": 6,
+   "tail": 476355,
+   "cycle": 212555,
+   "rho": 688910
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_nearest",
+   "profile": 9,
+   "run": 7,
+   "tail": 485243,
+   "cycle": 212555,
+   "rho": 697798
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 0,
+   "run": 0,
+   "tail": 359873,
+   "cycle": 303311,
+   "rho": 663184
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 0,
+   "run": 1,
+   "tail": 1122055,
+   "cycle": 303311,
+   "rho": 1425366
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 0,
+   "run": 2,
+   "tail": 330498,
+   "cycle": 303311,
+   "rho": 633809
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 0,
+   "run": 3,
+   "tail": 949327,
+   "cycle": 303311,
+   "rho": 1252638
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 0,
+   "run": 4,
+   "tail": 36809,
+   "cycle": 303311,
+   "rho": 340120
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 0,
+   "run": 5,
+   "tail": 25326,
+   "cycle": 300194,
+   "rho": 325520
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 0,
+   "run": 6,
+   "tail": 1235449,
+   "cycle": 303311,
+   "rho": 1538760
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 0,
+   "run": 7,
+   "tail": 34907,
+   "cycle": 300194,
+   "rho": 335101
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 1,
+   "run": 0,
+   "tail": 539778,
+   "cycle": 1592887,
+   "rho": 2132665
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 1,
+   "run": 1,
+   "tail": 531402,
+   "cycle": 1592887,
+   "rho": 2124289
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 1,
+   "run": 2,
+   "tail": 417067,
+   "cycle": 1592887,
+   "rho": 2009954
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 1,
+   "run": 3,
+   "tail": 537319,
+   "cycle": 1592887,
+   "rho": 2130206
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 1,
+   "run": 4,
+   "tail": 625510,
+   "cycle": 420138,
+   "rho": 1045648
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 1,
+   "run": 5,
+   "tail": 504964,
+   "cycle": 420138,
+   "rho": 925102
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 1,
+   "run": 6,
+   "tail": 107891,
+   "cycle": 1592887,
+   "rho": 1700778
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 1,
+   "run": 7,
+   "tail": 413422,
+   "cycle": 1592887,
+   "rho": 2006309
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 2,
+   "run": 0,
+   "tail": 1613762,
+   "cycle": 501510,
+   "rho": 2115272
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 2,
+   "run": 1,
+   "tail": 1108899,
+   "cycle": 501510,
+   "rho": 1610409
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 2,
+   "run": 2,
+   "tail": 851370,
+   "cycle": 501510,
+   "rho": 1352880
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 2,
+   "run": 3,
+   "tail": 829423,
+   "cycle": 501510,
+   "rho": 1330933
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 2,
+   "run": 4,
+   "tail": 503392,
+   "cycle": 501510,
+   "rho": 1004902
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 2,
+   "run": 5,
+   "tail": 2043915,
+   "cycle": 501510,
+   "rho": 2545425
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 2,
+   "run": 6,
+   "tail": 102409,
+   "cycle": 501510,
+   "rho": 603919
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 2,
+   "run": 7,
+   "tail": 207608,
+   "cycle": 501510,
+   "rho": 709118
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 3,
+   "run": 0,
+   "tail": 1354309,
+   "cycle": 632361,
+   "rho": 1986670
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 3,
+   "run": 1,
+   "tail": 564883,
+   "cycle": 632361,
+   "rho": 1197244
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 3,
+   "run": 2,
+   "tail": 359932,
+   "cycle": 632361,
+   "rho": 992293
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 3,
+   "run": 3,
+   "tail": 1821896,
+   "cycle": 632361,
+   "rho": 2454257
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 3,
+   "run": 4,
+   "tail": 4580,
+   "cycle": 145621,
+   "rho": 150201
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 3,
+   "run": 5,
+   "tail": 503802,
+   "cycle": 632361,
+   "rho": 1136163
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 3,
+   "run": 6,
+   "tail": 884591,
+   "cycle": 632361,
+   "rho": 1516952
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 3,
+   "run": 7,
+   "tail": 1606097,
+   "cycle": 632361,
+   "rho": 2238458
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 4,
+   "run": 0,
+   "tail": 965984,
+   "cycle": 1342982,
+   "rho": 2308966
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 4,
+   "run": 1,
+   "tail": 234987,
+   "cycle": 1342982,
+   "rho": 1577969
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 4,
+   "run": 2,
+   "tail": 132402,
+   "cycle": 34373,
+   "rho": 166775
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 4,
+   "run": 3,
+   "tail": 261117,
+   "cycle": 1342982,
+   "rho": 1604099
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 4,
+   "run": 4,
+   "tail": 1778709,
+   "cycle": 1342982,
+   "rho": 3121691
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 4,
+   "run": 5,
+   "tail": 1316274,
+   "cycle": 1342982,
+   "rho": 2659256
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 4,
+   "run": 6,
+   "tail": 1271813,
+   "cycle": 1342982,
+   "rho": 2614795
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 4,
+   "run": 7,
+   "tail": 608281,
+   "cycle": 1342982,
+   "rho": 1951263
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 5,
+   "run": 0,
+   "tail": 543865,
+   "cycle": 331284,
+   "rho": 875149
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 5,
+   "run": 1,
+   "tail": 1504179,
+   "cycle": 331284,
+   "rho": 1835463
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 5,
+   "run": 2,
+   "tail": 193211,
+   "cycle": 331284,
+   "rho": 524495
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 5,
+   "run": 3,
+   "tail": 239619,
+   "cycle": 137899,
+   "rho": 377518
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 5,
+   "run": 4,
+   "tail": 882347,
+   "cycle": 331284,
+   "rho": 1213631
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 5,
+   "run": 5,
+   "tail": 268840,
+   "cycle": 137899,
+   "rho": 406739
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 5,
+   "run": 6,
+   "tail": 800322,
+   "cycle": 331284,
+   "rho": 1131606
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 5,
+   "run": 7,
+   "tail": 358514,
+   "cycle": 331284,
+   "rho": 689798
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 6,
+   "run": 0,
+   "tail": 2411319,
+   "cycle": 165187,
+   "rho": 2576506
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 6,
+   "run": 1,
+   "tail": 2380028,
+   "cycle": 165187,
+   "rho": 2545215
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 6,
+   "run": 2,
+   "tail": 1091491,
+   "cycle": 165187,
+   "rho": 1256678
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 6,
+   "run": 3,
+   "tail": 229331,
+   "cycle": 165187,
+   "rho": 394518
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 6,
+   "run": 4,
+   "tail": 952198,
+   "cycle": 165187,
+   "rho": 1117385
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 6,
+   "run": 5,
+   "tail": 107288,
+   "cycle": 165187,
+   "rho": 272475
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 6,
+   "run": 6,
+   "tail": 656674,
+   "cycle": 165187,
+   "rho": 821861
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 6,
+   "run": 7,
+   "tail": 635796,
+   "cycle": 165187,
+   "rho": 800983
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 7,
+   "run": 0,
+   "tail": 495909,
+   "cycle": 622215,
+   "rho": 1118124
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 7,
+   "run": 1,
+   "tail": 2335207,
+   "cycle": 622215,
+   "rho": 2957422
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 7,
+   "run": 2,
+   "tail": 2290405,
+   "cycle": 622215,
+   "rho": 2912620
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 7,
+   "run": 3,
+   "tail": 709552,
+   "cycle": 622215,
+   "rho": 1331767
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 7,
+   "run": 4,
+   "tail": 2253601,
+   "cycle": 622215,
+   "rho": 2875816
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 7,
+   "run": 5,
+   "tail": 2246045,
+   "cycle": 622215,
+   "rho": 2868260
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 7,
+   "run": 6,
+   "tail": 1328395,
+   "cycle": 622215,
+   "rho": 1950610
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 7,
+   "run": 7,
+   "tail": 1150730,
+   "cycle": 622215,
+   "rho": 1772945
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 8,
+   "run": 0,
+   "tail": 417411,
+   "cycle": 23363,
+   "rho": 440774
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 8,
+   "run": 1,
+   "tail": 502026,
+   "cycle": 319287,
+   "rho": 821313
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 8,
+   "run": 2,
+   "tail": 275784,
+   "cycle": 319287,
+   "rho": 595071
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 8,
+   "run": 3,
+   "tail": 226743,
+   "cycle": 291697,
+   "rho": 518440
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 8,
+   "run": 4,
+   "tail": 253326,
+   "cycle": 23363,
+   "rho": 276689
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 8,
+   "run": 5,
+   "tail": 1367856,
+   "cycle": 258465,
+   "rho": 1626321
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 8,
+   "run": 6,
+   "tail": 255339,
+   "cycle": 291697,
+   "rho": 547036
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 8,
+   "run": 7,
+   "tail": 380977,
+   "cycle": 258465,
+   "rho": 639442
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 9,
+   "run": 0,
+   "tail": 556103,
+   "cycle": 561935,
+   "rho": 1118038
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 9,
+   "run": 1,
+   "tail": 934838,
+   "cycle": 603125,
+   "rho": 1537963
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 9,
+   "run": 2,
+   "tail": 2409197,
+   "cycle": 561935,
+   "rho": 2971132
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 9,
+   "run": 3,
+   "tail": 1623203,
+   "cycle": 561935,
+   "rho": 2185138
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 9,
+   "run": 4,
+   "tail": 1112431,
+   "cycle": 561935,
+   "rho": 1674366
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 9,
+   "run": 5,
+   "tail": 2077275,
+   "cycle": 561935,
+   "rho": 2639210
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 9,
+   "run": 6,
+   "tail": 1522731,
+   "cycle": 561935,
+   "rho": 2084666
+  },
+  {
+   "q": 5,
+   "condition": "fam2_s1_nearest",
+   "profile": 9,
+   "run": 7,
+   "tail": 1042595,
+   "cycle": 561935,
+   "rho": 1604530
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 0,
+   "run": 0,
+   "tail": 538533,
+   "cycle": 1245273,
+   "rho": 1783806
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 0,
+   "run": 1,
+   "tail": 164986,
+   "cycle": 233657,
+   "rho": 398643
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 0,
+   "run": 2,
+   "tail": 86610,
+   "cycle": 1245273,
+   "rho": 1331883
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 0,
+   "run": 3,
+   "tail": 185773,
+   "cycle": 1245273,
+   "rho": 1431046
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 0,
+   "run": 4,
+   "tail": 365626,
+   "cycle": 1245273,
+   "rho": 1610899
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 0,
+   "run": 5,
+   "tail": 999799,
+   "cycle": 1245273,
+   "rho": 2245072
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 0,
+   "run": 6,
+   "tail": 290729,
+   "cycle": 1245273,
+   "rho": 1536002
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 0,
+   "run": 7,
+   "tail": 618315,
+   "cycle": 1245273,
+   "rho": 1863588
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 1,
+   "run": 0,
+   "tail": 38589,
+   "cycle": 1401700,
+   "rho": 1440289
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 1,
+   "run": 1,
+   "tail": 922858,
+   "cycle": 1401700,
+   "rho": 2324558
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 1,
+   "run": 2,
+   "tail": 1163455,
+   "cycle": 1401700,
+   "rho": 2565155
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 1,
+   "run": 3,
+   "tail": 888442,
+   "cycle": 1401700,
+   "rho": 2290142
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 1,
+   "run": 4,
+   "tail": 804065,
+   "cycle": 1401700,
+   "rho": 2205765
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 1,
+   "run": 5,
+   "tail": 433522,
+   "cycle": 1401700,
+   "rho": 1835222
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 1,
+   "run": 6,
+   "tail": 1336237,
+   "cycle": 1401700,
+   "rho": 2737937
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 1,
+   "run": 7,
+   "tail": 733194,
+   "cycle": 1401700,
+   "rho": 2134894
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 2,
+   "run": 0,
+   "tail": 178138,
+   "cycle": 405487,
+   "rho": 583625
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 2,
+   "run": 1,
+   "tail": 579618,
+   "cycle": 1254886,
+   "rho": 1834504
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 2,
+   "run": 2,
+   "tail": 88645,
+   "cycle": 1254886,
+   "rho": 1343531
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 2,
+   "run": 3,
+   "tail": 47480,
+   "cycle": 272688,
+   "rho": 320168
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 2,
+   "run": 4,
+   "tail": 311814,
+   "cycle": 405487,
+   "rho": 717301
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 2,
+   "run": 5,
+   "tail": 40883,
+   "cycle": 1254886,
+   "rho": 1295769
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 2,
+   "run": 6,
+   "tail": 64302,
+   "cycle": 405487,
+   "rho": 469789
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 2,
+   "run": 7,
+   "tail": 72722,
+   "cycle": 1254886,
+   "rho": 1327608
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 3,
+   "run": 0,
+   "tail": 202525,
+   "cycle": 1511356,
+   "rho": 1713881
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 3,
+   "run": 1,
+   "tail": 717497,
+   "cycle": 1895,
+   "rho": 719392
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 3,
+   "run": 2,
+   "tail": 82189,
+   "cycle": 1895,
+   "rho": 84084
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 3,
+   "run": 3,
+   "tail": 374680,
+   "cycle": 1895,
+   "rho": 376575
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 3,
+   "run": 4,
+   "tail": 103255,
+   "cycle": 1895,
+   "rho": 105150
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 3,
+   "run": 5,
+   "tail": 22799,
+   "cycle": 1511356,
+   "rho": 1534155
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 3,
+   "run": 6,
+   "tail": 678279,
+   "cycle": 1895,
+   "rho": 680174
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 3,
+   "run": 7,
+   "tail": 130228,
+   "cycle": 1511356,
+   "rho": 1641584
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 4,
+   "run": 0,
+   "tail": 1531053,
+   "cycle": 257644,
+   "rho": 1788697
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 4,
+   "run": 1,
+   "tail": 1340363,
+   "cycle": 257644,
+   "rho": 1598007
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 4,
+   "run": 2,
+   "tail": 228109,
+   "cycle": 571132,
+   "rho": 799241
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 4,
+   "run": 3,
+   "tail": 1635077,
+   "cycle": 257644,
+   "rho": 1892721
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 4,
+   "run": 4,
+   "tail": 1297334,
+   "cycle": 257644,
+   "rho": 1554978
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 4,
+   "run": 5,
+   "tail": 1488315,
+   "cycle": 257644,
+   "rho": 1745959
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 4,
+   "run": 6,
+   "tail": 364576,
+   "cycle": 257644,
+   "rho": 622220
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 4,
+   "run": 7,
+   "tail": 150669,
+   "cycle": 257644,
+   "rho": 408313
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 5,
+   "run": 0,
+   "tail": 144425,
+   "cycle": 49226,
+   "rho": 193651
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 5,
+   "run": 1,
+   "tail": 184674,
+   "cycle": 723372,
+   "rho": 908046
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 5,
+   "run": 2,
+   "tail": 189627,
+   "cycle": 723372,
+   "rho": 912999
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 5,
+   "run": 3,
+   "tail": 1177246,
+   "cycle": 330959,
+   "rho": 1508205
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 5,
+   "run": 4,
+   "tail": 767990,
+   "cycle": 330959,
+   "rho": 1098949
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 5,
+   "run": 5,
+   "tail": 319001,
+   "cycle": 330959,
+   "rho": 649960
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 5,
+   "run": 6,
+   "tail": 182367,
+   "cycle": 330959,
+   "rho": 513326
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 5,
+   "run": 7,
+   "tail": 1180455,
+   "cycle": 330959,
+   "rho": 1511414
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 6,
+   "run": 0,
+   "tail": 387020,
+   "cycle": 839274,
+   "rho": 1226294
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 6,
+   "run": 1,
+   "tail": 403446,
+   "cycle": 839274,
+   "rho": 1242720
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 6,
+   "run": 2,
+   "tail": 69561,
+   "cycle": 85451,
+   "rho": 155012
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 6,
+   "run": 3,
+   "tail": 668306,
+   "cycle": 85451,
+   "rho": 753757
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 6,
+   "run": 4,
+   "tail": 535570,
+   "cycle": 839274,
+   "rho": 1374844
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 6,
+   "run": 5,
+   "tail": 427618,
+   "cycle": 839274,
+   "rho": 1266892
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 6,
+   "run": 6,
+   "tail": 524107,
+   "cycle": 839274,
+   "rho": 1363381
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 6,
+   "run": 7,
+   "tail": 92452,
+   "cycle": 85451,
+   "rho": 177903
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 7,
+   "run": 0,
+   "tail": 31515,
+   "cycle": 813896,
+   "rho": 845411
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 7,
+   "run": 1,
+   "tail": 581285,
+   "cycle": 813896,
+   "rho": 1395181
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 7,
+   "run": 2,
+   "tail": 529981,
+   "cycle": 813896,
+   "rho": 1343877
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 7,
+   "run": 3,
+   "tail": 257827,
+   "cycle": 813896,
+   "rho": 1071723
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 7,
+   "run": 4,
+   "tail": 63184,
+   "cycle": 6210,
+   "rho": 69394
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 7,
+   "run": 5,
+   "tail": 934816,
+   "cycle": 813896,
+   "rho": 1748712
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 7,
+   "run": 6,
+   "tail": 1094462,
+   "cycle": 813896,
+   "rho": 1908358
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 7,
+   "run": 7,
+   "tail": 311417,
+   "cycle": 813896,
+   "rho": 1125313
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 8,
+   "run": 0,
+   "tail": 422432,
+   "cycle": 695308,
+   "rho": 1117740
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 8,
+   "run": 1,
+   "tail": 667683,
+   "cycle": 695308,
+   "rho": 1362991
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 8,
+   "run": 2,
+   "tail": 189333,
+   "cycle": 695308,
+   "rho": 884641
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 8,
+   "run": 3,
+   "tail": 257951,
+   "cycle": 421874,
+   "rho": 679825
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 8,
+   "run": 4,
+   "tail": 196825,
+   "cycle": 421874,
+   "rho": 618699
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 8,
+   "run": 5,
+   "tail": 268099,
+   "cycle": 421874,
+   "rho": 689973
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 8,
+   "run": 6,
+   "tail": 141509,
+   "cycle": 695308,
+   "rho": 836817
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 8,
+   "run": 7,
+   "tail": 458233,
+   "cycle": 421874,
+   "rho": 880107
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 9,
+   "run": 0,
+   "tail": 723335,
+   "cycle": 70695,
+   "rho": 794030
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 9,
+   "run": 1,
+   "tail": 844835,
+   "cycle": 70695,
+   "rho": 915530
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 9,
+   "run": 2,
+   "tail": 48202,
+   "cycle": 70695,
+   "rho": 118897
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 9,
+   "run": 3,
+   "tail": 1126091,
+   "cycle": 70695,
+   "rho": 1196786
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 9,
+   "run": 4,
+   "tail": 135611,
+   "cycle": 24998,
+   "rho": 160609
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 9,
+   "run": 5,
+   "tail": 72420,
+   "cycle": 70695,
+   "rho": 143115
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 9,
+   "run": 6,
+   "tail": 916898,
+   "cycle": 70695,
+   "rho": 987593
+  },
+  {
+   "q": 5,
+   "condition": "fam3_s1_nearest",
+   "profile": 9,
+   "run": 7,
+   "tail": 834267,
+   "cycle": 70695,
+   "rho": 904962
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 0,
+   "run": 0,
+   "tail": 670579,
+   "cycle": 1260142,
+   "rho": 1930721
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 0,
+   "run": 1,
+   "tail": 569490,
+   "cycle": 1260142,
+   "rho": 1829632
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 0,
+   "run": 2,
+   "tail": 411153,
+   "cycle": 1260142,
+   "rho": 1671295
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 0,
+   "run": 3,
+   "tail": 120328,
+   "cycle": 1260142,
+   "rho": 1380470
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 0,
+   "run": 4,
+   "tail": 363237,
+   "cycle": 1260142,
+   "rho": 1623379
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 0,
+   "run": 5,
+   "tail": 316024,
+   "cycle": 1260142,
+   "rho": 1576166
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 0,
+   "run": 6,
+   "tail": 338112,
+   "cycle": 1260142,
+   "rho": 1598254
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 0,
+   "run": 7,
+   "tail": 351457,
+   "cycle": 1260142,
+   "rho": 1611599
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 1,
+   "run": 0,
+   "tail": 348828,
+   "cycle": 213259,
+   "rho": 562087
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 1,
+   "run": 1,
+   "tail": 1049035,
+   "cycle": 94123,
+   "rho": 1143158
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 1,
+   "run": 2,
+   "tail": 978061,
+   "cycle": 213259,
+   "rho": 1191320
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 1,
+   "run": 3,
+   "tail": 759955,
+   "cycle": 213259,
+   "rho": 973214
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 1,
+   "run": 4,
+   "tail": 464786,
+   "cycle": 213259,
+   "rho": 678045
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 1,
+   "run": 5,
+   "tail": 98750,
+   "cycle": 94123,
+   "rho": 192873
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 1,
+   "run": 6,
+   "tail": 1045288,
+   "cycle": 213259,
+   "rho": 1258547
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 1,
+   "run": 7,
+   "tail": 1172344,
+   "cycle": 213259,
+   "rho": 1385603
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 2,
+   "run": 0,
+   "tail": 1434895,
+   "cycle": 50054,
+   "rho": 1484949
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 2,
+   "run": 1,
+   "tail": 2077536,
+   "cycle": 50054,
+   "rho": 2127590
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 2,
+   "run": 2,
+   "tail": 957538,
+   "cycle": 50054,
+   "rho": 1007592
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 2,
+   "run": 3,
+   "tail": 1971278,
+   "cycle": 50054,
+   "rho": 2021332
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 2,
+   "run": 4,
+   "tail": 997877,
+   "cycle": 50054,
+   "rho": 1047931
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 2,
+   "run": 5,
+   "tail": 446719,
+   "cycle": 117794,
+   "rho": 564513
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 2,
+   "run": 6,
+   "tail": 224551,
+   "cycle": 117794,
+   "rho": 342345
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 2,
+   "run": 7,
+   "tail": 1284755,
+   "cycle": 50054,
+   "rho": 1334809
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 3,
+   "run": 0,
+   "tail": 551697,
+   "cycle": 440284,
+   "rho": 991981
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 3,
+   "run": 1,
+   "tail": 394708,
+   "cycle": 636819,
+   "rho": 1031527
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 3,
+   "run": 2,
+   "tail": 195597,
+   "cycle": 440284,
+   "rho": 635881
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 3,
+   "run": 3,
+   "tail": 262937,
+   "cycle": 751355,
+   "rho": 1014292
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 3,
+   "run": 4,
+   "tail": 971234,
+   "cycle": 864492,
+   "rho": 1835726
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 3,
+   "run": 5,
+   "tail": 330518,
+   "cycle": 440284,
+   "rho": 770802
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 3,
+   "run": 6,
+   "tail": 530147,
+   "cycle": 440284,
+   "rho": 970431
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 3,
+   "run": 7,
+   "tail": 243393,
+   "cycle": 751355,
+   "rho": 994748
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 4,
+   "run": 0,
+   "tail": 1835494,
+   "cycle": 542590,
+   "rho": 2378084
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 4,
+   "run": 1,
+   "tail": 1048121,
+   "cycle": 542590,
+   "rho": 1590711
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 4,
+   "run": 2,
+   "tail": 1033950,
+   "cycle": 542590,
+   "rho": 1576540
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 4,
+   "run": 3,
+   "tail": 763100,
+   "cycle": 542590,
+   "rho": 1305690
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 4,
+   "run": 4,
+   "tail": 1587967,
+   "cycle": 542590,
+   "rho": 2130557
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 4,
+   "run": 5,
+   "tail": 2195158,
+   "cycle": 542590,
+   "rho": 2737748
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 4,
+   "run": 6,
+   "tail": 589639,
+   "cycle": 542590,
+   "rho": 1132229
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 4,
+   "run": 7,
+   "tail": 1913865,
+   "cycle": 542590,
+   "rho": 2456455
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 5,
+   "run": 0,
+   "tail": 2278752,
+   "cycle": 526640,
+   "rho": 2805392
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 5,
+   "run": 1,
+   "tail": 799358,
+   "cycle": 526640,
+   "rho": 1325998
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 5,
+   "run": 2,
+   "tail": 1199047,
+   "cycle": 526640,
+   "rho": 1725687
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 5,
+   "run": 3,
+   "tail": 60729,
+   "cycle": 526640,
+   "rho": 587369
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 5,
+   "run": 4,
+   "tail": 571229,
+   "cycle": 526640,
+   "rho": 1097869
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 5,
+   "run": 5,
+   "tail": 2274417,
+   "cycle": 526640,
+   "rho": 2801057
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 5,
+   "run": 6,
+   "tail": 1164079,
+   "cycle": 526640,
+   "rho": 1690719
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 5,
+   "run": 7,
+   "tail": 627866,
+   "cycle": 526640,
+   "rho": 1154506
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 6,
+   "run": 0,
+   "tail": 157533,
+   "cycle": 403773,
+   "rho": 561306
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 6,
+   "run": 1,
+   "tail": 552211,
+   "cycle": 403773,
+   "rho": 955984
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 6,
+   "run": 2,
+   "tail": 122697,
+   "cycle": 184792,
+   "rho": 307489
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 6,
+   "run": 3,
+   "tail": 193747,
+   "cycle": 702975,
+   "rho": 896722
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 6,
+   "run": 4,
+   "tail": 154329,
+   "cycle": 702975,
+   "rho": 857304
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 6,
+   "run": 5,
+   "tail": 156204,
+   "cycle": 702975,
+   "rho": 859179
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 6,
+   "run": 6,
+   "tail": 276874,
+   "cycle": 126428,
+   "rho": 403302
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 6,
+   "run": 7,
+   "tail": 565958,
+   "cycle": 702975,
+   "rho": 1268933
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 7,
+   "run": 0,
+   "tail": 32741,
+   "cycle": 1134601,
+   "rho": 1167342
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 7,
+   "run": 1,
+   "tail": 479499,
+   "cycle": 1134601,
+   "rho": 1614100
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 7,
+   "run": 2,
+   "tail": 367280,
+   "cycle": 1134601,
+   "rho": 1501881
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 7,
+   "run": 3,
+   "tail": 39897,
+   "cycle": 1134601,
+   "rho": 1174498
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 7,
+   "run": 4,
+   "tail": 217542,
+   "cycle": 1134601,
+   "rho": 1352143
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 7,
+   "run": 5,
+   "tail": 896664,
+   "cycle": 1134601,
+   "rho": 2031265
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 7,
+   "run": 6,
+   "tail": 137857,
+   "cycle": 421325,
+   "rho": 559182
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 7,
+   "run": 7,
+   "tail": 95944,
+   "cycle": 421325,
+   "rho": 517269
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 8,
+   "run": 0,
+   "tail": 377120,
+   "cycle": 1036166,
+   "rho": 1413286
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 8,
+   "run": 1,
+   "tail": 1015673,
+   "cycle": 95773,
+   "rho": 1111446
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 8,
+   "run": 2,
+   "tail": 500254,
+   "cycle": 95773,
+   "rho": 596027
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 8,
+   "run": 3,
+   "tail": 666215,
+   "cycle": 95773,
+   "rho": 761988
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 8,
+   "run": 4,
+   "tail": 752305,
+   "cycle": 95773,
+   "rho": 848078
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 8,
+   "run": 5,
+   "tail": 1574694,
+   "cycle": 95773,
+   "rho": 1670467
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 8,
+   "run": 6,
+   "tail": 1658519,
+   "cycle": 95773,
+   "rho": 1754292
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 8,
+   "run": 7,
+   "tail": 500196,
+   "cycle": 95773,
+   "rho": 595969
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 9,
+   "run": 0,
+   "tail": 236789,
+   "cycle": 138422,
+   "rho": 375211
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 9,
+   "run": 1,
+   "tail": 375151,
+   "cycle": 113627,
+   "rho": 488778
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 9,
+   "run": 2,
+   "tail": 206214,
+   "cycle": 138422,
+   "rho": 344636
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 9,
+   "run": 3,
+   "tail": 1764858,
+   "cycle": 138422,
+   "rho": 1903280
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 9,
+   "run": 4,
+   "tail": 909729,
+   "cycle": 138422,
+   "rho": 1048151
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 9,
+   "run": 5,
+   "tail": 351236,
+   "cycle": 138422,
+   "rho": 489658
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 9,
+   "run": 6,
+   "tail": 171577,
+   "cycle": 138422,
+   "rho": 309999
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s1_truncation",
+   "profile": 9,
+   "run": 7,
+   "tail": 501915,
+   "cycle": 138422,
+   "rho": 640337
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 0,
+   "run": 0,
+   "tail": 371017,
+   "cycle": 1036013,
+   "rho": 1407030
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 0,
+   "run": 1,
+   "tail": 178351,
+   "cycle": 1036013,
+   "rho": 1214364
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 0,
+   "run": 2,
+   "tail": 802291,
+   "cycle": 1036013,
+   "rho": 1838304
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 0,
+   "run": 3,
+   "tail": 763656,
+   "cycle": 1036013,
+   "rho": 1799669
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 0,
+   "run": 4,
+   "tail": 1378125,
+   "cycle": 1036013,
+   "rho": 2414138
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 0,
+   "run": 5,
+   "tail": 292053,
+   "cycle": 1036013,
+   "rho": 1328066
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 0,
+   "run": 6,
+   "tail": 310545,
+   "cycle": 1036013,
+   "rho": 1346558
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 0,
+   "run": 7,
+   "tail": 180053,
+   "cycle": 1036013,
+   "rho": 1216066
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 1,
+   "run": 0,
+   "tail": 1066799,
+   "cycle": 349463,
+   "rho": 1416262
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 1,
+   "run": 1,
+   "tail": 514226,
+   "cycle": 349463,
+   "rho": 863689
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 1,
+   "run": 2,
+   "tail": 242671,
+   "cycle": 349463,
+   "rho": 592134
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 1,
+   "run": 3,
+   "tail": 1266505,
+   "cycle": 349463,
+   "rho": 1615968
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 1,
+   "run": 4,
+   "tail": 746091,
+   "cycle": 349463,
+   "rho": 1095554
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 1,
+   "run": 5,
+   "tail": 848211,
+   "cycle": 349463,
+   "rho": 1197674
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 1,
+   "run": 6,
+   "tail": 393250,
+   "cycle": 349463,
+   "rho": 742713
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 1,
+   "run": 7,
+   "tail": 232320,
+   "cycle": 349463,
+   "rho": 581783
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 2,
+   "run": 0,
+   "tail": 204422,
+   "cycle": 1208799,
+   "rho": 1413221
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 2,
+   "run": 1,
+   "tail": 100491,
+   "cycle": 1208799,
+   "rho": 1309290
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 2,
+   "run": 2,
+   "tail": 186129,
+   "cycle": 1208799,
+   "rho": 1394928
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 2,
+   "run": 3,
+   "tail": 139745,
+   "cycle": 1208799,
+   "rho": 1348544
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 2,
+   "run": 4,
+   "tail": 253938,
+   "cycle": 1208799,
+   "rho": 1462737
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 2,
+   "run": 5,
+   "tail": 141713,
+   "cycle": 1208799,
+   "rho": 1350512
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 2,
+   "run": 6,
+   "tail": 141543,
+   "cycle": 1208799,
+   "rho": 1350342
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 2,
+   "run": 7,
+   "tail": 486095,
+   "cycle": 1208799,
+   "rho": 1694894
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 3,
+   "run": 0,
+   "tail": 628331,
+   "cycle": 1030166,
+   "rho": 1658497
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 3,
+   "run": 1,
+   "tail": 768628,
+   "cycle": 1030166,
+   "rho": 1798794
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 3,
+   "run": 2,
+   "tail": 728252,
+   "cycle": 1030166,
+   "rho": 1758418
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 3,
+   "run": 3,
+   "tail": 255645,
+   "cycle": 1160057,
+   "rho": 1415702
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 3,
+   "run": 4,
+   "tail": 385830,
+   "cycle": 1160057,
+   "rho": 1545887
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 3,
+   "run": 5,
+   "tail": 790118,
+   "cycle": 1030166,
+   "rho": 1820284
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 3,
+   "run": 6,
+   "tail": 102649,
+   "cycle": 1160057,
+   "rho": 1262706
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 3,
+   "run": 7,
+   "tail": 360267,
+   "cycle": 1160057,
+   "rho": 1520324
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 4,
+   "run": 0,
+   "tail": 444231,
+   "cycle": 8004,
+   "rho": 452235
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 4,
+   "run": 1,
+   "tail": 75415,
+   "cycle": 250716,
+   "rho": 326131
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 4,
+   "run": 2,
+   "tail": 1314904,
+   "cycle": 733849,
+   "rho": 2048753
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 4,
+   "run": 3,
+   "tail": 73483,
+   "cycle": 733849,
+   "rho": 807332
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 4,
+   "run": 4,
+   "tail": 113095,
+   "cycle": 733849,
+   "rho": 846944
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 4,
+   "run": 5,
+   "tail": 642803,
+   "cycle": 733849,
+   "rho": 1376652
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 4,
+   "run": 6,
+   "tail": 876595,
+   "cycle": 733849,
+   "rho": 1610444
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 4,
+   "run": 7,
+   "tail": 1126884,
+   "cycle": 733849,
+   "rho": 1860733
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 5,
+   "run": 0,
+   "tail": 435478,
+   "cycle": 135998,
+   "rho": 571476
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 5,
+   "run": 1,
+   "tail": 189003,
+   "cycle": 852137,
+   "rho": 1041140
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 5,
+   "run": 2,
+   "tail": 542804,
+   "cycle": 135998,
+   "rho": 678802
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 5,
+   "run": 3,
+   "tail": 743004,
+   "cycle": 260491,
+   "rho": 1003495
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 5,
+   "run": 4,
+   "tail": 1094519,
+   "cycle": 135998,
+   "rho": 1230517
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 5,
+   "run": 5,
+   "tail": 463999,
+   "cycle": 135998,
+   "rho": 599997
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 5,
+   "run": 6,
+   "tail": 417114,
+   "cycle": 260491,
+   "rho": 677605
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 5,
+   "run": 7,
+   "tail": 479968,
+   "cycle": 135998,
+   "rho": 615966
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 6,
+   "run": 0,
+   "tail": 1416665,
+   "cycle": 536544,
+   "rho": 1953209
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 6,
+   "run": 1,
+   "tail": 1725346,
+   "cycle": 536544,
+   "rho": 2261890
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 6,
+   "run": 2,
+   "tail": 220885,
+   "cycle": 536544,
+   "rho": 757429
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 6,
+   "run": 3,
+   "tail": 448205,
+   "cycle": 536544,
+   "rho": 984749
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 6,
+   "run": 4,
+   "tail": 479534,
+   "cycle": 536544,
+   "rho": 1016078
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 6,
+   "run": 5,
+   "tail": 976208,
+   "cycle": 536544,
+   "rho": 1512752
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 6,
+   "run": 6,
+   "tail": 486286,
+   "cycle": 536544,
+   "rho": 1022830
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 6,
+   "run": 7,
+   "tail": 1035758,
+   "cycle": 536544,
+   "rho": 1572302
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 7,
+   "run": 0,
+   "tail": 554310,
+   "cycle": 1957731,
+   "rho": 2512041
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 7,
+   "run": 1,
+   "tail": 405397,
+   "cycle": 1957731,
+   "rho": 2363128
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 7,
+   "run": 2,
+   "tail": 685655,
+   "cycle": 143844,
+   "rho": 829499
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 7,
+   "run": 3,
+   "tail": 38309,
+   "cycle": 1957731,
+   "rho": 1996040
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 7,
+   "run": 4,
+   "tail": 1320611,
+   "cycle": 1957731,
+   "rho": 3278342
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 7,
+   "run": 5,
+   "tail": 53369,
+   "cycle": 1957731,
+   "rho": 2011100
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 7,
+   "run": 6,
+   "tail": 406792,
+   "cycle": 1957731,
+   "rho": 2364523
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 7,
+   "run": 7,
+   "tail": 63963,
+   "cycle": 1957731,
+   "rho": 2021694
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 8,
+   "run": 0,
+   "tail": 1277005,
+   "cycle": 1106203,
+   "rho": 2383208
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 8,
+   "run": 1,
+   "tail": 185872,
+   "cycle": 114864,
+   "rho": 300736
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 8,
+   "run": 2,
+   "tail": 1206375,
+   "cycle": 1106203,
+   "rho": 2312578
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 8,
+   "run": 3,
+   "tail": 1726815,
+   "cycle": 1106203,
+   "rho": 2833018
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 8,
+   "run": 4,
+   "tail": 699319,
+   "cycle": 1106203,
+   "rho": 1805522
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 8,
+   "run": 5,
+   "tail": 408826,
+   "cycle": 1106203,
+   "rho": 1515029
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 8,
+   "run": 6,
+   "tail": 1309365,
+   "cycle": 1106203,
+   "rho": 2415568
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 8,
+   "run": 7,
+   "tail": 426564,
+   "cycle": 1106203,
+   "rho": 1532767
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 9,
+   "run": 0,
+   "tail": 650970,
+   "cycle": 654728,
+   "rho": 1305698
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 9,
+   "run": 1,
+   "tail": 566138,
+   "cycle": 1766908,
+   "rho": 2333046
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 9,
+   "run": 2,
+   "tail": 1314580,
+   "cycle": 1766908,
+   "rho": 3081488
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 9,
+   "run": 3,
+   "tail": 244301,
+   "cycle": 654728,
+   "rho": 899029
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 9,
+   "run": 4,
+   "tail": 294164,
+   "cycle": 654728,
+   "rho": 948892
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 9,
+   "run": 5,
+   "tail": 82975,
+   "cycle": 654728,
+   "rho": 737703
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 9,
+   "run": 6,
+   "tail": 738519,
+   "cycle": 654728,
+   "rho": 1393247
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s0.5_nearest",
+   "profile": 9,
+   "run": 7,
+   "tail": 101651,
+   "cycle": 1766908,
+   "rho": 1868559
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 0,
+   "run": 0,
+   "tail": 668559,
+   "cycle": 97893,
+   "rho": 766452
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 0,
+   "run": 1,
+   "tail": 107123,
+   "cycle": 772689,
+   "rho": 879812
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 0,
+   "run": 2,
+   "tail": 247577,
+   "cycle": 1053108,
+   "rho": 1300685
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 0,
+   "run": 3,
+   "tail": 68267,
+   "cycle": 97893,
+   "rho": 166160
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 0,
+   "run": 4,
+   "tail": 310422,
+   "cycle": 4025,
+   "rho": 314447
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 0,
+   "run": 5,
+   "tail": 629244,
+   "cycle": 4025,
+   "rho": 633269
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 0,
+   "run": 6,
+   "tail": 373857,
+   "cycle": 4025,
+   "rho": 377882
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 0,
+   "run": 7,
+   "tail": 268237,
+   "cycle": 1053108,
+   "rho": 1321345
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 1,
+   "run": 0,
+   "tail": 199518,
+   "cycle": 776735,
+   "rho": 976253
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 1,
+   "run": 1,
+   "tail": 855397,
+   "cycle": 776735,
+   "rho": 1632132
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 1,
+   "run": 2,
+   "tail": 270873,
+   "cycle": 518867,
+   "rho": 789740
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 1,
+   "run": 3,
+   "tail": 353651,
+   "cycle": 776735,
+   "rho": 1130386
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 1,
+   "run": 4,
+   "tail": 632537,
+   "cycle": 776735,
+   "rho": 1409272
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 1,
+   "run": 5,
+   "tail": 1601482,
+   "cycle": 776735,
+   "rho": 2378217
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 1,
+   "run": 6,
+   "tail": 1770000,
+   "cycle": 776735,
+   "rho": 2546735
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 1,
+   "run": 7,
+   "tail": 1318064,
+   "cycle": 776735,
+   "rho": 2094799
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 2,
+   "run": 0,
+   "tail": 81349,
+   "cycle": 2058074,
+   "rho": 2139423
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 2,
+   "run": 1,
+   "tail": 482560,
+   "cycle": 2058074,
+   "rho": 2540634
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 2,
+   "run": 2,
+   "tail": 236278,
+   "cycle": 2058074,
+   "rho": 2294352
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 2,
+   "run": 3,
+   "tail": 369211,
+   "cycle": 2058074,
+   "rho": 2427285
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 2,
+   "run": 4,
+   "tail": 490741,
+   "cycle": 2058074,
+   "rho": 2548815
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 2,
+   "run": 5,
+   "tail": 376224,
+   "cycle": 2058074,
+   "rho": 2434298
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 2,
+   "run": 6,
+   "tail": 172185,
+   "cycle": 611344,
+   "rho": 783529
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 2,
+   "run": 7,
+   "tail": 37974,
+   "cycle": 611344,
+   "rho": 649318
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 3,
+   "run": 0,
+   "tail": 220356,
+   "cycle": 1317525,
+   "rho": 1537881
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 3,
+   "run": 1,
+   "tail": 1105913,
+   "cycle": 169257,
+   "rho": 1275170
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 3,
+   "run": 2,
+   "tail": 1893631,
+   "cycle": 169257,
+   "rho": 2062888
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 3,
+   "run": 3,
+   "tail": 852618,
+   "cycle": 169257,
+   "rho": 1021875
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 3,
+   "run": 4,
+   "tail": 2038945,
+   "cycle": 169257,
+   "rho": 2208202
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 3,
+   "run": 5,
+   "tail": 78662,
+   "cycle": 368435,
+   "rho": 447097
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 3,
+   "run": 6,
+   "tail": 226725,
+   "cycle": 1317525,
+   "rho": 1544250
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 3,
+   "run": 7,
+   "tail": 1366046,
+   "cycle": 169257,
+   "rho": 1535303
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 4,
+   "run": 0,
+   "tail": 802511,
+   "cycle": 358596,
+   "rho": 1161107
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 4,
+   "run": 1,
+   "tail": 1236802,
+   "cycle": 358596,
+   "rho": 1595398
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 4,
+   "run": 2,
+   "tail": 157521,
+   "cycle": 576856,
+   "rho": 734377
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 4,
+   "run": 3,
+   "tail": 498066,
+   "cycle": 48849,
+   "rho": 546915
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 4,
+   "run": 4,
+   "tail": 148720,
+   "cycle": 615659,
+   "rho": 764379
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 4,
+   "run": 5,
+   "tail": 24557,
+   "cycle": 576856,
+   "rho": 601413
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 4,
+   "run": 6,
+   "tail": 2052594,
+   "cycle": 358596,
+   "rho": 2411190
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 4,
+   "run": 7,
+   "tail": 517226,
+   "cycle": 48849,
+   "rho": 566075
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 5,
+   "run": 0,
+   "tail": 688752,
+   "cycle": 816321,
+   "rho": 1505073
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 5,
+   "run": 1,
+   "tail": 255954,
+   "cycle": 532536,
+   "rho": 788490
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 5,
+   "run": 2,
+   "tail": 85908,
+   "cycle": 876896,
+   "rho": 962804
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 5,
+   "run": 3,
+   "tail": 210021,
+   "cycle": 816321,
+   "rho": 1026342
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 5,
+   "run": 4,
+   "tail": 488552,
+   "cycle": 816321,
+   "rho": 1304873
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 5,
+   "run": 5,
+   "tail": 84956,
+   "cycle": 816321,
+   "rho": 901277
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 5,
+   "run": 6,
+   "tail": 32198,
+   "cycle": 876896,
+   "rho": 909094
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 5,
+   "run": 7,
+   "tail": 192917,
+   "cycle": 816321,
+   "rho": 1009238
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 6,
+   "run": 0,
+   "tail": 1102585,
+   "cycle": 521332,
+   "rho": 1623917
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 6,
+   "run": 1,
+   "tail": 957917,
+   "cycle": 521332,
+   "rho": 1479249
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 6,
+   "run": 2,
+   "tail": 876010,
+   "cycle": 521332,
+   "rho": 1397342
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 6,
+   "run": 3,
+   "tail": 347102,
+   "cycle": 521332,
+   "rho": 868434
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 6,
+   "run": 4,
+   "tail": 1081623,
+   "cycle": 521332,
+   "rho": 1602955
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 6,
+   "run": 5,
+   "tail": 900359,
+   "cycle": 521332,
+   "rho": 1421691
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 6,
+   "run": 6,
+   "tail": 747759,
+   "cycle": 521332,
+   "rho": 1269091
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 6,
+   "run": 7,
+   "tail": 338826,
+   "cycle": 521332,
+   "rho": 860158
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 7,
+   "run": 0,
+   "tail": 972736,
+   "cycle": 500892,
+   "rho": 1473628
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 7,
+   "run": 1,
+   "tail": 1120756,
+   "cycle": 500892,
+   "rho": 1621648
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 7,
+   "run": 2,
+   "tail": 438426,
+   "cycle": 500892,
+   "rho": 939318
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 7,
+   "run": 3,
+   "tail": 490077,
+   "cycle": 500892,
+   "rho": 990969
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 7,
+   "run": 4,
+   "tail": 40660,
+   "cycle": 500892,
+   "rho": 541552
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 7,
+   "run": 5,
+   "tail": 464483,
+   "cycle": 500892,
+   "rho": 965375
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 7,
+   "run": 6,
+   "tail": 184626,
+   "cycle": 172398,
+   "rho": 357024
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 7,
+   "run": 7,
+   "tail": 246630,
+   "cycle": 500892,
+   "rho": 747522
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 8,
+   "run": 0,
+   "tail": 845494,
+   "cycle": 101403,
+   "rho": 946897
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 8,
+   "run": 1,
+   "tail": 598505,
+   "cycle": 761558,
+   "rho": 1360063
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 8,
+   "run": 2,
+   "tail": 350937,
+   "cycle": 761558,
+   "rho": 1112495
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 8,
+   "run": 3,
+   "tail": 795538,
+   "cycle": 761558,
+   "rho": 1557096
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 8,
+   "run": 4,
+   "tail": 152992,
+   "cycle": 761558,
+   "rho": 914550
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 8,
+   "run": 5,
+   "tail": 622475,
+   "cycle": 761558,
+   "rho": 1384033
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 8,
+   "run": 6,
+   "tail": 104415,
+   "cycle": 761558,
+   "rho": 865973
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 8,
+   "run": 7,
+   "tail": 661464,
+   "cycle": 761558,
+   "rho": 1423022
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 9,
+   "run": 0,
+   "tail": 175841,
+   "cycle": 1413135,
+   "rho": 1588976
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 9,
+   "run": 1,
+   "tail": 151622,
+   "cycle": 1413135,
+   "rho": 1564757
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 9,
+   "run": 2,
+   "tail": 431340,
+   "cycle": 1413135,
+   "rho": 1844475
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 9,
+   "run": 3,
+   "tail": 467620,
+   "cycle": 1413135,
+   "rho": 1880755
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 9,
+   "run": 4,
+   "tail": 434437,
+   "cycle": 1413135,
+   "rho": 1847572
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 9,
+   "run": 5,
+   "tail": 412479,
+   "cycle": 1413135,
+   "rho": 1825614
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 9,
+   "run": 6,
+   "tail": 311720,
+   "cycle": 1413135,
+   "rho": 1724855
+  },
+  {
+   "q": 5,
+   "condition": "fam1_s2_nearest",
+   "profile": 9,
+   "run": 7,
+   "tail": 247246,
+   "cycle": 1413135,
+   "rho": 1660381
+  }
+ ],
+ "finished_utc": "2026-11-15T10:38:01Z"
+}

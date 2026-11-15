@@ -1,0 +1,67 @@
+run   1  S  3451.7 tables/s  peak 167 MiB
+run   2  H  44.6 tables/s  peak 168 MiB
+run   3  L  409.1 tables/s  peak 167 MiB
+run   4  S  3015.2 tables/s  peak 167 MiB
+run   5  L  410.3 tables/s  peak 167 MiB
+run   6  H  44.3 tables/s  peak 167 MiB
+run   7  H  45.1 tables/s  peak 167 MiB
+run   8  S  3268.7 tables/s  peak 168 MiB
+run   9  L  415.7 tables/s  peak 167 MiB
+run  10  H  44.3 tables/s  peak 167 MiB
+run  11  L  416.3 tables/s  peak 168 MiB
+run  12  S  3133.1 tables/s  peak 168 MiB
+run  13  L  400.7 tables/s  peak 167 MiB
+run  14  S  3347.9 tables/s  peak 167 MiB
+run  15  H  38.7 tables/s  peak 167 MiB
+run  16  L  421.3 tables/s  peak 167 MiB
+run  17  H  45.3 tables/s  peak 167 MiB
+run  18  S  3580.3 tables/s  peak 167 MiB
+run  19  S  3254.2 tables/s  peak 167 MiB
+run  20  H  45.0 tables/s  peak 167 MiB
+run  21  L  406.1 tables/s  peak 167 MiB
+run  22  S  3410.2 tables/s  peak 167 MiB
+run  23  L  401.8 tables/s  peak 167 MiB
+run  24  H  39.1 tables/s  peak 168 MiB
+run  25  H  44.3 tables/s  peak 167 MiB
+run  26  S  3379.8 tables/s  peak 167 MiB
+run  27  L  413.7 tables/s  peak 167 MiB
+run  28  H  42.6 tables/s  peak 168 MiB
+run  29  L  415.0 tables/s  peak 167 MiB
+run  30  S  3249.0 tables/s  peak 167 MiB
+run  31  L  408.1 tables/s  peak 167 MiB
+run  32  S  3300.9 tables/s  peak 167 MiB
+run  33  H  44.9 tables/s  peak 167 MiB
+run  34  L  431.9 tables/s  peak 167 MiB
+run  35  H  44.4 tables/s  peak 168 MiB
+run  36  S  3002.5 tables/s  peak 167 MiB
+run  37  S  3218.3 tables/s  peak 167 MiB
+run  38  H  44.7 tables/s  peak 167 MiB
+run  39  L  428.3 tables/s  peak 167 MiB
+run  40  S  3285.1 tables/s  peak 167 MiB
+run  41  L  378.0 tables/s  peak 167 MiB
+run  42  H  40.5 tables/s  peak 167 MiB
+run  43  H  45.4 tables/s  peak 167 MiB
+run  44  S  3523.3 tables/s  peak 167 MiB
+run  45  L  426.2 tables/s  peak 167 MiB
+run  46  H  44.7 tables/s  peak 167 MiB
+run  47  L  415.2 tables/s  peak 167 MiB
+run  48  S  3021.3 tables/s  peak 167 MiB
+run  49  L  396.4 tables/s  peak 167 MiB
+run  50  S  3033.5 tables/s  peak 167 MiB
+run  51  H  44.6 tables/s  peak 167 MiB
+run  52  L  404.7 tables/s  peak 167 MiB
+run  53  H  46.9 tables/s  peak 167 MiB
+run  54  S  3065.0 tables/s  peak 167 MiB
+run  55  S  3265.1 tables/s  peak 167 MiB
+run  56  H  45.0 tables/s  peak 167 MiB
+run  57  L  404.2 tables/s  peak 167 MiB
+run  58  S  3175.3 tables/s  peak 167 MiB
+run  59  L  400.0 tables/s  peak 167 MiB
+run  60  H  44.0 tables/s  peak 167 MiB
+S: 3259.7 tables/s (95% CI 3154.2 to 3324.4), 0.276 ms per table, peak 167 MiB, traced 8 KiB
+H: 44.6 tables/s (95% CI 44.3 to 44.9), 22.227 ms per table, peak 167 MiB, traced 9 KiB
+L: 409.7 tables/s (95% CI 404.5 to 415.4), 2.344 ms per table, peak 167 MiB, traced 8 KiB
+H/S time ratio 80.59 (95% CI 79.67 to 81.84)
+L/S time ratio 8.50 (95% CI 8.35 to 8.63)
+L/H time ratio 0.11 (95% CI 0.10 to 0.11)
+exit 0

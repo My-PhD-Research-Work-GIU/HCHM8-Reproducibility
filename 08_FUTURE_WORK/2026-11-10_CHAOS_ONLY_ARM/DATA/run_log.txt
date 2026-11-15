@@ -1,0 +1,8 @@
+<venv>\Lib\site-packages\numpy\lib\_function_base_impl.py:2611: RuntimeWarning: ks_2samp: Exact calculation unsuccessful. Switching to method=asymp.
+  outputs = ufunc(*args, out=...)
+C vs S: smallest p 0.2276, smallest Holm p 1.0000, max |g| 0.0281, g bound 0.0714
+CL vs S: smallest p 0.0162, smallest Holm p 0.1293, max |g| 0.0534, g bound 0.0967
+C vs H: smallest p 0.2447, smallest Holm p 1.0000, max |g| 0.0280, g bound 0.0713
+H vs S: smallest p 0.4375, smallest Holm p 1.0000, max |g| 0.0176, g bound 0.0609
+{"C": {"bytes": 1056768, "chi2": 269.9166666666667, "df": 255, "p": 0.24906060727859375}, "CL": {"bytes": 1056768, "chi2": 218.19815891472868, "df": 255, "p": 0.9540496058658714}} {"S": 4096, "H": 4096, "C": 4096, "CL": 4096}
+exit 0

@@ -1,0 +1,179 @@
+{
+ "environment_label": "Windows 11, fresh clone of commit 4b9507e, new uv environment from REPRODUCE.md",
+ "rerun_environment": {
+  "grid": {
+   "platform": "Windows-11-10.0.26300-SP0",
+   "python": "3.12.13",
+   "numpy": "2.5.4",
+   "numba": "0.68.1"
+  },
+  "chaos": {
+   "platform": "Windows-11-10.0.26300-SP0",
+   "python": "3.12.13",
+   "numpy": "2.5.4",
+   "scipy": "1.18.1"
+  }
+ },
+ "stored_environment": {
+  "grid": {
+   "platform": "Windows-11-10.0.26300-SP0",
+   "python": "3.12.13",
+   "numpy": "2.5.4",
+   "numba": "0.68.1"
+  },
+  "chaos": {
+   "platform": "Windows-11-10.0.26300-SP0",
+   "python": "3.12.13",
+   "numpy": "2.5.4",
+   "scipy": "1.18.1"
+  }
+ },
+ "scripts_identical": {
+  "grid": true,
+  "chaos": true
+ },
+ "grid": {
+  "profiles_with_identical_F_statistics": 20,
+  "profiles_with_identical_G_cycle_type": 20,
+  "profiles": 20,
+  "orbits_with_identical_periods": 790,
+  "orbits": 790,
+  "F_Q3_mean_image_fraction": 0.6325835645198822,
+  "F_Q3_mean_rho_ratio": 0.9215656398126862,
+  "periods_by_q": {
+   "4": [
+    8,
+    12,
+    24
+   ],
+   "5": [
+    12,
+    16,
+    24,
+    48
+   ],
+   "6": [
+    48,
+    96
+   ],
+   "7": [
+    96,
+    192
+   ]
+  }
+ },
+ "chaos": {
+  "tables_identical_to_stored": {
+   "S": 4096,
+   "H": 4096,
+   "C": 4096,
+   "CL": 4096
+  },
+  "tables_per_arm": 4096,
+  "comparisons": {
+   "C vs S": {
+    "smallest_p": {
+     "stored": 0.22756326145437344,
+     "rerun": 0.22756326145437344
+    },
+    "smallest_p_holm": {
+     "stored": 1.0,
+     "rerun": 1.0
+    },
+    "max_abs_g": {
+     "stored": 0.028120504934159296,
+     "rerun": 0.028120504934159296
+    },
+    "g_interval_bound": {
+     "stored": 0.071432935739341,
+     "rerun": 0.071432935739341
+    }
+   },
+   "CL vs S": {
+    "smallest_p": {
+     "stored": 0.016156579421773336,
+     "rerun": 0.016156579421773336
+    },
+    "smallest_p_holm": {
+     "stored": 0.1292526353741867,
+     "rerun": 0.1292526353741867
+    },
+    "max_abs_g": {
+     "stored": 0.05336387947142764,
+     "rerun": 0.05336387947142764
+    },
+    "g_interval_bound": {
+     "stored": 0.09668187756269295,
+     "rerun": 0.09668187756269295
+    }
+   },
+   "C vs H": {
+    "smallest_p": {
+     "stored": 0.24469833811786434,
+     "rerun": 0.24469833811786434
+    },
+    "smallest_p_holm": {
+     "stored": 1.0,
+     "rerun": 1.0
+    },
+    "max_abs_g": {
+     "stored": 0.02795755938484155,
+     "rerun": 0.02795755938484155
+    },
+    "g_interval_bound": {
+     "stored": 0.07126996545653956,
+     "rerun": 0.07126996545653956
+    }
+   },
+   "H vs S": {
+    "smallest_p": {
+     "stored": 0.4375236755151951,
+     "rerun": 0.4375236755151951
+    },
+    "smallest_p_holm": {
+     "stored": 1.0,
+     "rerun": 1.0
+    },
+    "max_abs_g": {
+     "stored": 0.017562904719107937,
+     "rerun": 0.017562904719107937
+    },
+    "g_interval_bound": {
+     "stored": 0.06087403001514552,
+     "rerun": 0.06087403001514552
+    }
+   }
+  },
+  "byte_uniformity_rerun": {
+   "C": {
+    "bytes": 1056768,
+    "chi2": 269.9166666666667,
+    "df": 255,
+    "p": 0.24906060727859375
+   },
+   "CL": {
+    "bytes": 1056768,
+    "chi2": 218.19815891472868,
+    "df": 255,
+    "p": 0.9540496058658714
+   }
+  },
+  "distinct_tables_rerun": {
+   "S": 4096,
+   "H": 4096,
+   "C": 4096,
+   "CL": 4096
+  }
+ },
+ "must_hold": {
+  "G_permutation_with_type_of_A": true,
+  "G_orbit_periods_equal_A_and_divide_core": true,
+  "paper_arms_reproduced_by_the_script": true,
+  "SHAKE_only_tables_identical_to_stored": true
+ },
+ "all_must_hold": true,
+ "registered_criteria_met_again": {
+  "registered_F_criteria_at_Q3": true,
+  "registered_chaos_criteria": true
+ }
+}

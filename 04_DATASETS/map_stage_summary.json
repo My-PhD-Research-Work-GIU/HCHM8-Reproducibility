@@ -1,0 +1,72 @@
+{
+  "stage": "map",
+  "started": "2026-08-02T18:16:28",
+  "map": {
+    "map": "HCHM-8 conjugate system T=H^{-1}AH",
+    "state_space": "8-torus [0,1)^8",
+    "exact_lyapunov_spectrum": [
+      2.0634370688955608,
+      1.762747174039086,
+      1.3169578969248166,
+      0.9624236501192069,
+      -0.9624236501192069,
+      -1.3169578969248166,
+      -1.762747174039086,
+      -2.0634370688955608
+    ],
+    "positive_exponents": 4,
+    "exact_topological_entropy_nats_per_iteration": 6.10556578997867,
+    "exact_fixed_points": 48,
+    "max_roundtrip_error_2000": 4.440892098500626e-16,
+    "max_conjugacy_error_2000": 8.881784197001252e-16,
+    "detH_mean": 1.0,
+    "detH_max_abs_error_from_1": 1.1102230246251565e-15,
+    "detT_mean": 1.0000000000000002,
+    "detT_max_abs_error_from_1": 5.395683899678261e-14,
+    "reference_sensitivity": {
+      "requested": 1e-15,
+      "actual": 9.992007221626409e-16,
+      "first_gt_1e-12": 6,
+      "first_gt_1e-9": 9,
+      "first_gt_1e-6": 12,
+      "first_gt_1e-3": 16,
+      "max_delta_x1": 0.499162813545144,
+      "mean_delta_x1": 0.2086983118663208
+    },
+    "numeric_le_runs": 6,
+    "numeric_le_mean": [
+      2.062565938159022,
+      1.761355723211749,
+      1.3164701088117818,
+      0.9635130803690929,
+      -0.9613862164362773,
+      -1.317159681770702,
+      -1.7618760284309445,
+      -2.0634829239137207
+    ],
+    "numeric_le_std": [
+      0.0005616590032555883,
+      0.0005811549520450773,
+      0.0009273997402581176,
+      0.0015225903485420495,
+      0.0006246520401936281,
+      0.0005524150378554684,
+      0.0010278042755211458,
+      9.59754068295495e-05
+    ],
+    "numeric_vs_exact_max_abs_error": 0.0013914508273371595,
+    "sensitivity_steps_median": 20.5,
+    "sensitivity_steps_range": [
+      17,
+      26
+    ],
+    "entropy_correlation_mean": {
+      "permutation_entropy_mean": 0.9986360894103782,
+      "byte_entropy_mean": 7.981369027165915,
+      "lag1_abs_max": 0.01837537629515457,
+      "cross_corr_abs_max": 0.02534965357702039
+    },
+    "elapsed_s": 14.259594440460205
+  },
+  "completed": "2026-08-02T18:16:43"
+}

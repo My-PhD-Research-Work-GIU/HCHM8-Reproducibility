@@ -1,0 +1,51 @@
+{
+  "quantized_state_emulation": [
+    {
+      "qbits": 6,
+      "runs": 20,
+      "cap": 100000,
+      "cycles_found": 0,
+      "median_transient": null,
+      "median_cycle": null
+    },
+    {
+      "qbits": 8,
+      "runs": 20,
+      "cap": 250000,
+      "cycles_found": 0,
+      "median_transient": null,
+      "median_cycle": null
+    },
+    {
+      "qbits": 10,
+      "runs": 20,
+      "cap": 500000,
+      "cycles_found": 0,
+      "median_transient": null,
+      "median_cycle": null
+    },
+    {
+      "qbits": 12,
+      "runs": 20,
+      "cap": 1000000,
+      "cycles_found": 0,
+      "median_transient": null,
+      "median_cycle": null
+    },
+    {
+      "qbits": 16,
+      "runs": 20,
+      "cap": 1000000,
+      "cycles_found": 0,
+      "median_transient": null,
+      "median_cycle": null
+    }
+  ],
+  "float_repeat_search": "Not run beyond quantized-state profiles; exact IEEE-754 state-cycle search is computationally right-censored and not used as a security claim.",
+  "float32_float64_median_divergence_iteration": 8.0,
+  "float32_float64_range": [
+    7,
+    9
+  ],
+  "important_scope": "No cycle was observed within the stated cap in any quantized-state run. This is a right-censored lower bound, not proof of a long cycle. Quantized-state emulation rounds each complete state to Q bits while evaluating transcendental functions in float64; it is not an integer-only fixed-point implementation."
+}

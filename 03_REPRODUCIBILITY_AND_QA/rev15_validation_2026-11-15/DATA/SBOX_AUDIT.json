@@ -1,0 +1,81 @@
+{
+ "specification": {
+  "L_in_rows": [
+   "0xa1",
+   "0x14",
+   "0xd6",
+   "0x71",
+   "0xfb",
+   "0x49",
+   "0x21",
+   "0xb6"
+  ],
+  "L_out_rows": [
+   "0x11",
+   "0x56",
+   "0x94",
+   "0x43",
+   "0x71",
+   "0xee",
+   "0x19",
+   "0x91"
+  ],
+  "a": "0xf0",
+  "b": "0x77"
+ },
+ "rebuilt_equals_appendix_A": true,
+ "sha256": "450fbd045e90d588497162eb2badd692a68d16b03188b6682ee9f82e9949bc33",
+ "sha256_matches_record": true,
+ "bijective": true,
+ "L_in_rank": 8,
+ "L_out_rank": 8,
+ "affine_witness_all_256": true,
+ "nonlinearity_vectorial": 112,
+ "nonlinearity_component_range": [
+  112,
+  112
+ ],
+ "max_walsh": 32,
+ "degree_range": [
+  7,
+  7
+ ],
+ "ddt_spectrum_rows_1_255": {
+  "0": 32895,
+  "2": 32130,
+  "4": 255
+ },
+ "differential_uniformity": 4,
+ "boomerang_uniformity": 6,
+ "dlct_absolute_indicator": 16,
+ "fixed_points": 0,
+ "opposite_fixed_points": 0,
+ "cycle_structure": [
+  116,
+  110,
+  30
+ ],
+ "sac_mean": 0.497314453125,
+ "sac_mad": 0.021240234375,
+ "sac_maxdev": 0.046875,
+ "bic_max_abs_corr": 0.13169572921034225,
+ "bic_mean_abs_corr": 0.0582538131542571,
+ "invariance": {
+  "affine_invariant": [
+   "nonlinearity_vectorial",
+   "max_walsh",
+   "ddt_spectrum",
+   "differential_uniformity",
+   "degree_range",
+   "boomerang_uniformity",
+   "dlct_absolute_indicator"
+  ],
+  "coordinate_dependent": [
+   "fixed_points",
+   "opposite_fixed_points",
+   "cycle_structure",
+   "sac",
+   "bic"
+  ]
+ }
+}

@@ -1,0 +1,156 @@
+{"started_utc": "2026-11-15T09:24:38Z", "plan_sha256": "92e383b9014ebc734014e067c730dfb302617369c9153d899356e6615e359351", "script_sha256": "c43e9df8332750cbfc87933ae01cd4b095c42692d99739504beea34520d8aaed", "emulator_sha256": "f619488f7dc25ea9bfbb0acb16bd2f0e9ed58598d3a89078aa59111d38cadd89", "argv": ["DATA", "--profiles", "0:10", "--q1", "2,3", "--part", "1"], "environment": {"platform": "Windows-11-10.0.26300-SP0", "python": "3.12.13", "numpy": "2.5.4", "numba": "0.68.1", "threads": 16}}
+Q2 p0 C0 fam0 s1.00 F_nearest:if=1.0000,rho=0.035,cyc=6576 F_truncation:if=1.0000,rho=0.035,cyc=6576
+Q2 p0 C1 fam1 s1.00 F_nearest:if=0.6427,rho=0.725,cyc=9 F_truncation:if=0.6376,rho=0.759,cyc=8 G:if=1.0000,rho=0.035,cyc=6576 S_nearest:if=1.0000,rho=0.035,cyc=6576 S_truncation:if=1.0000,rho=2.044,cyc=448 Gchecks=True
+Q2 p0 C2 fam2 s1.00 F_nearest:if=0.6379,rho=1.358,cyc=3 G:if=1.0000,rho=0.035,cyc=6576 S_truncation:if=1.0000,rho=0.036,cyc=6144 Gchecks=True
+Q2 p0 C3 fam3 s1.00 F_nearest:if=0.6352,rho=0.819,cyc=6 G:if=1.0000,rho=0.035,cyc=6576 S_truncation:if=1.0000,rho=0.863,cyc=804 Gchecks=True
+Q2 p0 C4 fam1 s0.25 F_nearest:if=0.8765,rho=0.066,cyc=2485 G:if=1.0000,rho=0.035,cyc=6576 Gchecks=True
+Q2 p0 C4 fam1 s0.50 F_nearest:if=0.6568,rho=0.606,cyc=62 G:if=1.0000,rho=0.035,cyc=6576 Gchecks=True
+Q2 p0 C4 fam1 s2.00 F_nearest:if=0.6246,rho=0.777,cyc=8 G:if=1.0000,rho=0.035,cyc=6576 Gchecks=True
+Q2 p1 C0 fam0 s1.00 F_nearest:if=1.0000,rho=0.035,cyc=6576 F_truncation:if=1.0000,rho=0.035,cyc=6576
+Q2 p1 C1 fam1 s1.00 F_nearest:if=0.6420,rho=0.724,cyc=6 F_truncation:if=0.6454,rho=0.926,cyc=8 G:if=1.0000,rho=0.035,cyc=6576 S_nearest:if=1.0000,rho=0.035,cyc=6576 S_truncation:if=1.0000,rho=2.044,cyc=448 Gchecks=True
+Q2 p1 C2 fam2 s1.00 F_nearest:if=0.6476,rho=1.222,cyc=3 G:if=1.0000,rho=0.035,cyc=6576 S_truncation:if=1.0000,rho=0.054,cyc=4608 Gchecks=True
+Q2 p1 C3 fam3 s1.00 F_nearest:if=0.6408,rho=0.652,cyc=12 G:if=1.0000,rho=0.035,cyc=6576 S_truncation:if=1.0000,rho=0.867,cyc=736 Gchecks=True
+Q2 p1 C4 fam1 s0.25 F_nearest:if=0.9340,rho=0.088,cyc=3247 G:if=1.0000,rho=0.035,cyc=6576 Gchecks=True
+Q2 p1 C4 fam1 s0.50 F_nearest:if=0.7019,rho=0.258,cyc=204 G:if=1.0000,rho=0.035,cyc=6576 Gchecks=True
+Q2 p1 C4 fam1 s2.00 F_nearest:if=0.6199,rho=0.792,cyc=5 G:if=1.0000,rho=0.035,cyc=6576 Gchecks=True
+Q2 p2 C0 fam0 s1.00 F_nearest:if=1.0000,rho=0.035,cyc=6576 F_truncation:if=1.0000,rho=0.035,cyc=6576
+Q2 p2 C1 fam1 s1.00 F_nearest:if=0.6273,rho=0.885,cyc=5 F_truncation:if=0.6384,rho=0.831,cyc=7 G:if=1.0000,rho=0.035,cyc=6576 S_nearest:if=1.0000,rho=0.035,cyc=6576 S_truncation:if=1.0000,rho=2.044,cyc=448 Gchecks=True
+Q2 p2 C2 fam2 s1.00 F_nearest:if=0.6384,rho=2.306,cyc=3 G:if=1.0000,rho=0.035,cyc=6576 S_truncation:if=1.0000,rho=0.054,cyc=4608 Gchecks=True
+Q2 p2 C3 fam3 s1.00 F_nearest:if=0.6410,rho=0.557,cyc=11 G:if=1.0000,rho=0.035,cyc=6576 S_truncation:if=1.0000,rho=0.867,cyc=736 Gchecks=True
+Q2 p2 C4 fam1 s0.25 F_nearest:if=0.8809,rho=0.072,cyc=2679 G:if=1.0000,rho=0.035,cyc=6576 Gchecks=True
+Q2 p2 C4 fam1 s0.50 F_nearest:if=0.6493,rho=0.487,cyc=69 G:if=1.0000,rho=0.035,cyc=6576 Gchecks=True
+Q2 p2 C4 fam1 s2.00 F_nearest:if=0.5949,rho=0.537,cyc=7 G:if=1.0000,rho=0.035,cyc=6576 Gchecks=True
+Q2 p3 C0 fam0 s1.00 F_nearest:if=1.0000,rho=0.035,cyc=6576 F_truncation:if=1.0000,rho=0.035,cyc=6576
+Q2 p3 C1 fam1 s1.00 F_nearest:if=0.6357,rho=0.892,cyc=5 F_truncation:if=0.6376,rho=0.840,cyc=7 G:if=1.0000,rho=0.035,cyc=6576 S_nearest:if=1.0000,rho=0.035,cyc=6576 S_truncation:if=1.0000,rho=2.044,cyc=448 Gchecks=True
+Q2 p3 C2 fam2 s1.00 F_nearest:if=0.6359,rho=1.223,cyc=2 G:if=1.0000,rho=0.035,cyc=6576 S_truncation:if=1.0000,rho=0.054,cyc=4608 Gchecks=True
+Q2 p3 C3 fam3 s1.00 F_nearest:if=0.6318,rho=0.592,cyc=12 G:if=1.0000,rho=0.035,cyc=6576 S_truncation:if=1.0000,rho=0.867,cyc=736 Gchecks=True
+Q2 p3 C4 fam1 s0.25 F_nearest:if=0.9812,rho=0.073,cyc=4098 G:if=1.0000,rho=0.035,cyc=6576 Gchecks=True
+Q2 p3 C4 fam1 s0.50 F_nearest:if=0.6998,rho=0.251,cyc=129 G:if=1.0000,rho=0.035,cyc=6576 Gchecks=True
+Q2 p3 C4 fam1 s2.00 F_nearest:if=0.6246,rho=1.797,cyc=10 G:if=1.0000,rho=0.035,cyc=6576 Gchecks=True
+Q2 p4 C0 fam0 s1.00 F_nearest:if=1.0000,rho=0.035,cyc=6576 F_truncation:if=1.0000,rho=0.035,cyc=6576
+Q2 p4 C1 fam1 s1.00 F_nearest:if=0.6298,rho=0.853,cyc=6 F_truncation:if=0.6356,rho=1.005,cyc=7 G:if=1.0000,rho=0.035,cyc=6576 S_nearest:if=1.0000,rho=0.035,cyc=6576 S_truncation:if=1.0000,rho=2.044,cyc=448 Gchecks=True
+Q2 p4 C2 fam2 s1.00 F_nearest:if=0.6434,rho=0.853,cyc=6 G:if=1.0000,rho=0.035,cyc=6576 S_truncation:if=1.0000,rho=0.072,cyc=3072 Gchecks=True
+Q2 p4 C3 fam3 s1.00 F_nearest:if=0.6410,rho=0.913,cyc=6 G:if=1.0000,rho=0.035,cyc=6576 S_truncation:if=1.0000,rho=1.084,cyc=712 Gchecks=True
+Q2 p4 C4 fam1 s0.25 F_nearest:if=0.9616,rho=0.079,cyc=3458 G:if=1.0000,rho=0.035,cyc=6576 Gchecks=True
+Q2 p4 C4 fam1 s0.50 F_nearest:if=0.6777,rho=0.549,cyc=96 G:if=1.0000,rho=0.035,cyc=6576 Gchecks=True
+Q2 p4 C4 fam1 s2.00 F_nearest:if=0.6320,rho=1.331,cyc=3 G:if=1.0000,rho=0.035,cyc=6576 Gchecks=True
+Q2 p5 C0 fam0 s1.00 F_nearest:if=1.0000,rho=0.035,cyc=6576 F_truncation:if=1.0000,rho=0.035,cyc=6576
+Q2 p5 C1 fam1 s1.00 F_nearest:if=0.6285,rho=1.148,cyc=7 F_truncation:if=0.6276,rho=0.687,cyc=8 G:if=1.0000,rho=0.035,cyc=6576 S_nearest:if=1.0000,rho=0.035,cyc=6576 S_truncation:if=1.0000,rho=2.044,cyc=448 Gchecks=True
+Q2 p5 C2 fam2 s1.00 F_nearest:if=0.6332,rho=0.929,cyc=4 G:if=1.0000,rho=0.035,cyc=6576 S_truncation:if=1.0000,rho=0.072,cyc=3072 Gchecks=True
+Q2 p5 C3 fam3 s1.00 F_nearest:if=0.6356,rho=1.387,cyc=4 G:if=1.0000,rho=0.035,cyc=6576 S_truncation:if=1.0000,rho=0.867,cyc=736 Gchecks=True
+Q2 p5 C4 fam1 s0.25 F_nearest:if=0.9388,rho=0.074,cyc=3382 G:if=1.0000,rho=0.035,cyc=6576 Gchecks=True
+Q2 p5 C4 fam1 s0.50 F_nearest:if=0.6931,rho=0.473,cyc=144 G:if=1.0000,rho=0.035,cyc=6576 Gchecks=True
+Q2 p5 C4 fam1 s2.00 F_nearest:if=0.6272,rho=0.826,cyc=10 G:if=1.0000,rho=0.035,cyc=6576 Gchecks=True
+Q2 p6 C0 fam0 s1.00 F_nearest:if=1.0000,rho=0.035,cyc=6576 F_truncation:if=1.0000,rho=0.035,cyc=6576
+Q2 p6 C1 fam1 s1.00 F_nearest:if=0.6310,rho=1.020,cyc=6 F_truncation:if=0.6398,rho=1.370,cyc=9 G:if=1.0000,rho=0.035,cyc=6576 S_nearest:if=1.0000,rho=0.035,cyc=6576 S_truncation:if=1.0000,rho=2.044,cyc=448 Gchecks=True
+Q2 p6 C2 fam2 s1.00 F_nearest:if=0.6287,rho=0.922,cyc=3 G:if=1.0000,rho=0.035,cyc=6576 S_truncation:if=1.0000,rho=0.072,cyc=3072 Gchecks=True
+Q2 p6 C3 fam3 s1.00 F_nearest:if=0.6366,rho=0.499,cyc=15 G:if=1.0000,rho=0.035,cyc=6576 S_truncation:if=1.0000,rho=0.914,cyc=820 Gchecks=True
+Q2 p6 C4 fam1 s0.25 F_nearest:if=0.8882,rho=0.104,cyc=1933 G:if=1.0000,rho=0.035,cyc=6576 Gchecks=True
+Q2 p6 C4 fam1 s0.50 F_nearest:if=0.6686,rho=0.344,cyc=114 G:if=1.0000,rho=0.035,cyc=6576 Gchecks=True
+Q2 p6 C4 fam1 s2.00 F_nearest:if=0.6248,rho=0.614,cyc=5 G:if=1.0000,rho=0.035,cyc=6576 Gchecks=True
+Q2 p7 C0 fam0 s1.00 F_nearest:if=1.0000,rho=0.035,cyc=6576 F_truncation:if=1.0000,rho=0.035,cyc=6576
+Q2 p7 C1 fam1 s1.00 F_nearest:if=0.6425,rho=0.829,cyc=7 F_truncation:if=0.6417,rho=1.190,cyc=7 G:if=1.0000,rho=0.035,cyc=6576 S_nearest:if=1.0000,rho=0.035,cyc=6576 S_truncation:if=1.0000,rho=2.044,cyc=448 Gchecks=True
+Q2 p7 C2 fam2 s1.00 F_nearest:if=0.6404,rho=0.751,cyc=9 G:if=1.0000,rho=0.035,cyc=6576 S_truncation:if=1.0000,rho=0.072,cyc=3072 Gchecks=True
+Q2 p7 C3 fam3 s1.00 F_nearest:if=0.6369,rho=1.303,cyc=14 G:if=1.0000,rho=0.035,cyc=6576 S_truncation:if=1.0000,rho=0.863,cyc=804 Gchecks=True
+Q2 p7 C4 fam1 s0.25 F_nearest:if=0.9450,rho=0.068,cyc=3376 G:if=1.0000,rho=0.035,cyc=6576 Gchecks=True
+Q2 p7 C4 fam1 s0.50 F_nearest:if=0.6858,rho=0.404,cyc=127 G:if=1.0000,rho=0.035,cyc=6576 Gchecks=True
+Q2 p7 C4 fam1 s2.00 F_nearest:if=0.6181,rho=1.771,cyc=1 G:if=1.0000,rho=0.035,cyc=6576 Gchecks=True
+Q2 p8 C0 fam0 s1.00 F_nearest:if=1.0000,rho=0.035,cyc=6576 F_truncation:if=1.0000,rho=0.035,cyc=6576
+Q2 p8 C1 fam1 s1.00 F_nearest:if=0.6328,rho=1.042,cyc=11 F_truncation:if=0.6399,rho=1.361,cyc=5 G:if=1.0000,rho=0.035,cyc=6576 S_nearest:if=1.0000,rho=0.035,cyc=6576 S_truncation:if=1.0000,rho=2.044,cyc=448 Gchecks=True
+Q2 p8 C2 fam2 s1.00 F_nearest:if=0.6310,rho=1.132,cyc=3 G:if=1.0000,rho=0.035,cyc=6576 S_truncation:if=1.0000,rho=0.072,cyc=3072 Gchecks=True
+Q2 p8 C3 fam3 s1.00 F_nearest:if=0.6358,rho=0.527,cyc=9 G:if=1.0000,rho=0.035,cyc=6576 S_truncation:if=1.0000,rho=0.867,cyc=736 Gchecks=True
+Q2 p8 C4 fam1 s0.25 F_nearest:if=0.9361,rho=0.109,cyc=2852 G:if=1.0000,rho=0.035,cyc=6576 Gchecks=True
+Q2 p8 C4 fam1 s0.50 F_nearest:if=0.6731,rho=0.275,cyc=149 G:if=1.0000,rho=0.035,cyc=6576 Gchecks=True
+Q2 p8 C4 fam1 s2.00 F_nearest:if=0.6095,rho=1.320,cyc=5 G:if=1.0000,rho=0.035,cyc=6576 Gchecks=True
+Q2 p9 C0 fam0 s1.00 F_nearest:if=1.0000,rho=0.035,cyc=6576 F_truncation:if=1.0000,rho=0.035,cyc=6576
+Q2 p9 C1 fam1 s1.00 F_nearest:if=0.6203,rho=0.739,cyc=9 F_truncation:if=0.6207,rho=1.167,cyc=5 G:if=1.0000,rho=0.035,cyc=6576 S_nearest:if=1.0000,rho=0.035,cyc=6576 S_truncation:if=1.0000,rho=2.044,cyc=448 Gchecks=True
+Q2 p9 C2 fam2 s1.00 F_nearest:if=0.6247,rho=1.514,cyc=6 G:if=1.0000,rho=0.035,cyc=6576 S_truncation:if=1.0000,rho=0.072,cyc=3072 Gchecks=True
+Q2 p9 C3 fam3 s1.00 F_nearest:if=0.6386,rho=0.908,cyc=6 G:if=1.0000,rho=0.035,cyc=6576 S_truncation:if=1.0000,rho=0.914,cyc=820 Gchecks=True
+Q2 p9 C4 fam1 s0.25 F_nearest:if=0.9239,rho=0.165,cyc=1677 G:if=1.0000,rho=0.035,cyc=6576 Gchecks=True
+Q2 p9 C4 fam1 s0.50 F_nearest:if=0.6674,rho=0.450,cyc=55 G:if=1.0000,rho=0.035,cyc=6576 Gchecks=True
+Q2 p9 C4 fam1 s2.00 F_nearest:if=0.6264,rho=1.513,cyc=5 G:if=1.0000,rho=0.035,cyc=6576 Gchecks=True
+Q3 p0 C0 fam0 s1.00 F_nearest:if=1.0000,rho=0.002,cyc=1444656 F_truncation:if=1.0000,rho=0.002,cyc=1444656
+Q3 p0 C1 fam1 s1.00 F_nearest:if=0.6363,rho=0.946,cyc=18 F_truncation:if=0.6363,rho=0.865,cyc=14 G:if=1.0000,rho=0.002,cyc=1444656 S_nearest:if=1.0000,rho=0.002,cyc=1444656 S_truncation:if=1.0000,rho=4.628,cyc=3726 Gchecks=True
+Q3 p0 C2 fam2 s1.00 F_nearest:if=0.6313,rho=0.699,cyc=8 G:if=1.0000,rho=0.002,cyc=1444656 S_truncation:if=1.0000,rho=0.006,cyc=606208 Gchecks=True
+Q3 p0 C3 fam3 s1.00 F_nearest:if=0.6366,rho=0.671,cyc=12 G:if=1.0000,rho=0.002,cyc=1444656 S_truncation:if=1.0000,rho=3.854,cyc=4482 Gchecks=True
+Q3 p0 C4 fam1 s0.25 F_nearest:if=0.7048,rho=0.839,cyc=198 G:if=1.0000,rho=0.002,cyc=1444656 Gchecks=True
+Q3 p0 C4 fam1 s0.50 F_nearest:if=0.6635,rho=1.254,cyc=20 G:if=1.0000,rho=0.002,cyc=1444656 Gchecks=True
+Q3 p0 C4 fam1 s2.00 F_nearest:if=0.6319,rho=0.712,cyc=13 G:if=1.0000,rho=0.002,cyc=1444656 Gchecks=True
+Q3 p1 C0 fam0 s1.00 F_nearest:if=1.0000,rho=0.002,cyc=1444656 F_truncation:if=1.0000,rho=0.002,cyc=1444656
+Q3 p1 C1 fam1 s1.00 F_nearest:if=0.6401,rho=1.033,cyc=5 F_truncation:if=0.6386,rho=0.724,cyc=6 G:if=1.0000,rho=0.002,cyc=1444656 S_nearest:if=1.0000,rho=0.002,cyc=1444656 S_truncation:if=1.0000,rho=4.650,cyc=4188 Gchecks=True
+Q3 p1 C2 fam2 s1.00 F_nearest:if=0.6480,rho=1.050,cyc=10 G:if=1.0000,rho=0.002,cyc=1444656 S_truncation:if=1.0000,rho=0.005,cyc=688128 Gchecks=True
+Q3 p1 C3 fam3 s1.00 F_nearest:if=0.6369,rho=0.613,cyc=15 G:if=1.0000,rho=0.002,cyc=1444656 S_truncation:if=1.0000,rho=4.102,cyc=8056 Gchecks=True
+Q3 p1 C4 fam1 s0.25 F_nearest:if=0.7824,rho=0.513,cyc=2605 G:if=1.0000,rho=0.002,cyc=1444656 Gchecks=True
+Q3 p1 C4 fam1 s0.50 F_nearest:if=0.6621,rho=1.410,cyc=23 G:if=1.0000,rho=0.002,cyc=1444656 Gchecks=True
+Q3 p1 C4 fam1 s2.00 F_nearest:if=0.6278,rho=0.820,cyc=12 G:if=1.0000,rho=0.002,cyc=1444656 Gchecks=True
+Q3 p2 C0 fam0 s1.00 F_nearest:if=1.0000,rho=0.002,cyc=1444656 F_truncation:if=1.0000,rho=0.002,cyc=1444656
+Q3 p2 C1 fam1 s1.00 F_nearest:if=0.6282,rho=0.797,cyc=14 F_truncation:if=0.6236,rho=0.642,cyc=6 G:if=1.0000,rho=0.002,cyc=1444656 S_nearest:if=1.0000,rho=0.002,cyc=1444656 S_truncation:if=1.0000,rho=4.283,cyc=3892 Gchecks=True
+Q3 p2 C2 fam2 s1.00 F_nearest:if=0.6222,rho=1.378,cyc=24 G:if=1.0000,rho=0.002,cyc=1444656 S_truncation:if=1.0000,rho=0.006,cyc=655360 Gchecks=True
+Q3 p2 C3 fam3 s1.00 F_nearest:if=0.6360,rho=0.536,cyc=19 G:if=1.0000,rho=0.002,cyc=1444656 S_truncation:if=1.0000,rho=4.186,cyc=4422 Gchecks=True
+Q3 p2 C4 fam1 s0.25 F_nearest:if=0.6792,rho=0.599,cyc=281 G:if=1.0000,rho=0.002,cyc=1444656 Gchecks=True
+Q3 p2 C4 fam1 s0.50 F_nearest:if=0.6589,rho=0.645,cyc=12 G:if=1.0000,rho=0.002,cyc=1444656 Gchecks=True
+Q3 p2 C4 fam1 s2.00 F_nearest:if=0.6250,rho=0.727,cyc=18 G:if=1.0000,rho=0.002,cyc=1444656 Gchecks=True
+Q3 p3 C0 fam0 s1.00 F_nearest:if=1.0000,rho=0.002,cyc=1444656 F_truncation:if=1.0000,rho=0.002,cyc=1444656
+Q3 p3 C1 fam1 s1.00 F_nearest:if=0.6321,rho=0.707,cyc=10 F_truncation:if=0.6328,rho=0.746,cyc=11 G:if=1.0000,rho=0.002,cyc=1444656 S_nearest:if=1.0000,rho=0.002,cyc=1444656 S_truncation:if=1.0000,rho=4.484,cyc=4678 Gchecks=True
+Q3 p3 C2 fam2 s1.00 F_nearest:if=0.6390,rho=1.032,cyc=7 G:if=1.0000,rho=0.002,cyc=1444656 S_truncation:if=1.0000,rho=0.006,cyc=655360 Gchecks=True
+Q3 p3 C3 fam3 s1.00 F_nearest:if=0.6380,rho=1.417,cyc=6 G:if=1.0000,rho=0.002,cyc=1444656 S_truncation:if=1.0000,rho=3.957,cyc=20414 Gchecks=True
+Q3 p3 C4 fam1 s0.25 F_nearest:if=0.7521,rho=0.532,cyc=1976 G:if=1.0000,rho=0.002,cyc=1444656 Gchecks=True
+Q3 p3 C4 fam1 s0.50 F_nearest:if=0.6619,rho=0.624,cyc=23 G:if=1.0000,rho=0.002,cyc=1444656 Gchecks=True
+Q3 p3 C4 fam1 s2.00 F_nearest:if=0.6269,rho=0.935,cyc=8 G:if=1.0000,rho=0.002,cyc=1444656 Gchecks=True
+Q3 p4 C0 fam0 s1.00 F_nearest:if=1.0000,rho=0.002,cyc=1444656 F_truncation:if=1.0000,rho=0.002,cyc=1444656
+Q3 p4 C1 fam1 s1.00 F_nearest:if=0.6334,rho=0.744,cyc=18 F_truncation:if=0.6337,rho=0.856,cyc=13 G:if=1.0000,rho=0.002,cyc=1444656 S_nearest:if=1.0000,rho=0.002,cyc=1444656 S_truncation:if=1.0000,rho=4.628,cyc=3726 Gchecks=True
+Q3 p4 C2 fam2 s1.00 F_nearest:if=0.6411,rho=0.812,cyc=11 G:if=1.0000,rho=0.002,cyc=1444656 S_truncation:if=1.0000,rho=0.005,cyc=663552 Gchecks=True
+Q3 p4 C3 fam3 s1.00 F_nearest:if=0.6371,rho=1.100,cyc=7 G:if=1.0000,rho=0.002,cyc=1444656 S_truncation:if=1.0000,rho=4.066,cyc=5914 Gchecks=True
+Q3 p4 C4 fam1 s0.25 F_nearest:if=0.7229,rho=0.544,cyc=443 G:if=1.0000,rho=0.002,cyc=1444656 Gchecks=True
+Q3 p4 C4 fam1 s0.50 F_nearest:if=0.6541,rho=0.813,cyc=10 G:if=1.0000,rho=0.002,cyc=1444656 Gchecks=True
+Q3 p4 C4 fam1 s2.00 F_nearest:if=0.6277,rho=0.625,cyc=13 G:if=1.0000,rho=0.002,cyc=1444656 Gchecks=True
+Q3 p5 C0 fam0 s1.00 F_nearest:if=1.0000,rho=0.002,cyc=1444656 F_truncation:if=1.0000,rho=0.002,cyc=1444656
+Q3 p5 C1 fam1 s1.00 F_nearest:if=0.6312,rho=1.213,cyc=10 F_truncation:if=0.6319,rho=1.197,cyc=9 G:if=1.0000,rho=0.002,cyc=1444656 S_nearest:if=1.0000,rho=0.002,cyc=1444656 S_truncation:if=1.0000,rho=4.650,cyc=4188 Gchecks=True
+Q3 p5 C2 fam2 s1.00 F_nearest:if=0.6355,rho=0.755,cyc=13 G:if=1.0000,rho=0.002,cyc=1444656 S_truncation:if=1.0000,rho=0.006,cyc=606208 Gchecks=True
+Q3 p5 C3 fam3 s1.00 F_nearest:if=0.6360,rho=0.877,cyc=5 G:if=1.0000,rho=0.002,cyc=1444656 S_truncation:if=1.0000,rho=4.183,cyc=4854 Gchecks=True
+Q3 p5 C4 fam1 s0.25 F_nearest:if=0.7384,rho=0.489,cyc=1390 G:if=1.0000,rho=0.002,cyc=1444656 Gchecks=True
+Q3 p5 C4 fam1 s0.50 F_nearest:if=0.6536,rho=1.453,cyc=29 G:if=1.0000,rho=0.002,cyc=1444656 Gchecks=True
+Q3 p5 C4 fam1 s2.00 F_nearest:if=0.6299,rho=0.850,cyc=9 G:if=1.0000,rho=0.002,cyc=1444656 Gchecks=True
+Q3 p6 C0 fam0 s1.00 F_nearest:if=1.0000,rho=0.002,cyc=1444656 F_truncation:if=1.0000,rho=0.002,cyc=1444656
+Q3 p6 C1 fam1 s1.00 F_nearest:if=0.6289,rho=0.683,cyc=13 F_truncation:if=0.6251,rho=1.262,cyc=9 G:if=1.0000,rho=0.002,cyc=1444656 S_nearest:if=1.0000,rho=0.002,cyc=1444656 S_truncation:if=1.0000,rho=4.650,cyc=4188 Gchecks=True
+Q3 p6 C2 fam2 s1.00 F_nearest:if=0.6288,rho=0.745,cyc=10 G:if=1.0000,rho=0.002,cyc=1444656 S_truncation:if=1.0000,rho=0.005,cyc=663552 Gchecks=True
+Q3 p6 C3 fam3 s1.00 F_nearest:if=0.6368,rho=0.466,cyc=15 G:if=1.0000,rho=0.002,cyc=1444656 S_truncation:if=1.0000,rho=4.152,cyc=6578 Gchecks=True
+Q3 p6 C4 fam1 s0.25 F_nearest:if=0.6736,rho=0.358,cyc=1279 G:if=1.0000,rho=0.002,cyc=1444656 Gchecks=True
+Q3 p6 C4 fam1 s0.50 F_nearest:if=0.6536,rho=0.825,cyc=22 G:if=1.0000,rho=0.002,cyc=1444656 Gchecks=True
+Q3 p6 C4 fam1 s2.00 F_nearest:if=0.6311,rho=1.036,cyc=10 G:if=1.0000,rho=0.002,cyc=1444656 Gchecks=True
+Q3 p7 C0 fam0 s1.00 F_nearest:if=1.0000,rho=0.002,cyc=1444656 F_truncation:if=1.0000,rho=0.002,cyc=1444656
+Q3 p7 C1 fam1 s1.00 F_nearest:if=0.6353,rho=1.362,cyc=14 F_truncation:if=0.6343,rho=0.721,cyc=8 G:if=1.0000,rho=0.002,cyc=1444656 S_nearest:if=1.0000,rho=0.002,cyc=1444656 S_truncation:if=1.0000,rho=4.484,cyc=4678 Gchecks=True
+Q3 p7 C2 fam2 s1.00 F_nearest:if=0.6371,rho=0.784,cyc=14 G:if=1.0000,rho=0.002,cyc=1444656 S_truncation:if=1.0000,rho=0.006,cyc=606208 Gchecks=True
+Q3 p7 C3 fam3 s1.00 F_nearest:if=0.6373,rho=0.542,cyc=13 G:if=1.0000,rho=0.002,cyc=1444656 S_truncation:if=1.0000,rho=4.149,cyc=6630 Gchecks=True
+Q3 p7 C4 fam1 s0.25 F_nearest:if=0.7692,rho=0.516,cyc=1737 G:if=1.0000,rho=0.002,cyc=1444656 Gchecks=True
+Q3 p7 C4 fam1 s0.50 F_nearest:if=0.6649,rho=0.694,cyc=18 G:if=1.0000,rho=0.002,cyc=1444656 Gchecks=True
+Q3 p7 C4 fam1 s2.00 F_nearest:if=0.6104,rho=0.665,cyc=10 G:if=1.0000,rho=0.002,cyc=1444656 Gchecks=True
+Q3 p8 C0 fam0 s1.00 F_nearest:if=1.0000,rho=0.002,cyc=1444656 F_truncation:if=1.0000,rho=0.002,cyc=1444656
+Q3 p8 C1 fam1 s1.00 F_nearest:if=0.6305,rho=0.789,cyc=21 F_truncation:if=0.6257,rho=0.957,cyc=11 G:if=1.0000,rho=0.002,cyc=1444656 S_nearest:if=1.0000,rho=0.002,cyc=1444656 S_truncation:if=1.0000,rho=4.650,cyc=4188 Gchecks=True
+Q3 p8 C2 fam2 s1.00 F_nearest:if=0.6408,rho=0.949,cyc=12 G:if=1.0000,rho=0.002,cyc=1444656 S_truncation:if=1.0000,rho=0.005,cyc=663552 Gchecks=True
+Q3 p8 C3 fam3 s1.00 F_nearest:if=0.6350,rho=0.655,cyc=11 G:if=1.0000,rho=0.002,cyc=1444656 S_truncation:if=1.0000,rho=3.973,cyc=4714 Gchecks=True
+Q3 p8 C4 fam1 s0.25 F_nearest:if=0.7071,rho=0.587,cyc=819 G:if=1.0000,rho=0.002,cyc=1444656 Gchecks=True
+Q3 p8 C4 fam1 s0.50 F_nearest:if=0.6540,rho=1.437,cyc=26 G:if=1.0000,rho=0.002,cyc=1444656 Gchecks=True
+Q3 p8 C4 fam1 s2.00 F_nearest:if=0.6212,rho=0.704,cyc=17 G:if=1.0000,rho=0.002,cyc=1444656 Gchecks=True
+Q3 p9 C0 fam0 s1.00 F_nearest:if=1.0000,rho=0.002,cyc=1444656 F_truncation:if=1.0000,rho=0.002,cyc=1444656
+Q3 p9 C1 fam1 s1.00 F_nearest:if=0.6299,rho=0.942,cyc=8 F_truncation:if=0.6266,rho=0.746,cyc=7 G:if=1.0000,rho=0.002,cyc=1444656 S_nearest:if=1.0000,rho=0.002,cyc=1444656 S_truncation:if=1.0000,rho=4.484,cyc=4678 Gchecks=True
+Q3 p9 C2 fam2 s1.00 F_nearest:if=0.6277,rho=0.647,cyc=12 G:if=1.0000,rho=0.002,cyc=1444656 S_truncation:if=1.0000,rho=0.005,cyc=688128 Gchecks=True
+Q3 p9 C3 fam3 s1.00 F_nearest:if=0.6373,rho=1.019,cyc=10 G:if=1.0000,rho=0.002,cyc=1444656 S_truncation:if=1.0000,rho=4.142,cyc=10376 Gchecks=True
+Q3 p9 C4 fam1 s0.25 F_nearest:if=0.6946,rho=0.468,cyc=715 G:if=1.0000,rho=0.002,cyc=1444656 Gchecks=True
+Q3 p9 C4 fam1 s0.50 F_nearest:if=0.6551,rho=1.093,cyc=14 G:if=1.0000,rho=0.002,cyc=1444656 Gchecks=True
+Q3 p9 C4 fam1 s2.00 F_nearest:if=0.6283,rho=0.564,cyc=17 G:if=1.0000,rho=0.002,cyc=1444656 Gchecks=True
+finished 2026-11-15T10:25:47Z
+{"started_utc": "2026-11-15T10:25:57Z", "plan_sha256": "92e383b9014ebc734014e067c730dfb302617369c9153d899356e6615e359351", "script_sha256": "c43e9df8332750cbfc87933ae01cd4b095c42692d99739504beea34520d8aaed", "emulator_sha256": "f619488f7dc25ea9bfbb0acb16bd2f0e9ed58598d3a89078aa59111d38cadd89", "argv": ["DATA", "--profiles", "0:10", "--q2", "4,5", "--starts", "8", "--part", "2"], "environment": {"platform": "Windows-11-10.0.26300-SP0", "python": "3.12.13", "numpy": "2.5.4", "numba": "0.68.1", "threads": 16}}
+part2 Q4 fam1_s1_nearest mean rho 91107.7 ratio 1.109 (26 s)
+part2 Q4 fam2_s1_nearest mean rho 71300.3 ratio 0.868 (4 s)
+part2 Q4 fam3_s1_nearest mean rho 114085.9 ratio 1.389 (8 s)
+part2 Q4 fam1_s1_truncation mean rho 84779.8 ratio 1.032 (9 s)
+part2 Q4 fam1_s0.5_nearest mean rho 84131.9 ratio 1.024 (10 s)
+part2 Q4 fam1_s2_nearest mean rho 92580.7 ratio 1.127 (10 s)
+part2 Q5 fam1_s1_nearest mean rho 1362589.4 ratio 1.037 (136 s)
+part2 Q5 fam2_s1_nearest mean rho 1443088.4 ratio 1.098 (76 s)
+part2 Q5 fam3_s1_nearest mean rho 1144374.6 ratio 0.871 (62 s)
+part2 Q5 fam1_s1_truncation mean rho 1220736.6 ratio 0.929 (123 s)
+part2 Q5 fam1_s0.5_nearest mean rho 1458087.1 ratio 1.109 (155 s)
+part2 Q5 fam1_s2_nearest mean rho 1307716.7 ratio 0.995 (106 s)
+finished 2026-11-15T10:38:01Z

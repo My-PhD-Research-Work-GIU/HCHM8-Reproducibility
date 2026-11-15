@@ -1,0 +1,8 @@
+Q2: l=32, mean distinct 3.10 (range 2 to 5) vs Grebogi 2.71, ratio 1.14, band None
+Q3: l=32, mean distinct 2.80 (range 1 to 4) vs Grebogi 2.71, ratio 1.03, band True
+Q4: l=32, mean distinct 1.90 (range 1 to 3) vs Grebogi 2.71, ratio 0.70, band True
+Q5: l=32, mean distinct 2.50 (range 1 to 4) vs Grebogi 2.71, ratio 0.92, band True
+Q6: l=13, mean distinct 2.25 (range 1 to 3) vs Grebogi 2.26, ratio 0.99, band True
+Q7: l=2, mean distinct 1.33 (range 1 to 2) vs Grebogi 1.33, ratio 1.00, band None
+Q2 all cycles: mean 7.1 vs random exact 6.18 (Kruskal 6.12)
+Q3 all cycles: mean 13.1 vs random exact 8.95 (Kruskal 8.89)

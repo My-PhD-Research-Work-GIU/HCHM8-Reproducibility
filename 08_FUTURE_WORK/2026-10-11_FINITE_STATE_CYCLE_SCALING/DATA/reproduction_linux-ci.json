@@ -1,0 +1,37 @@
+{
+ "environment": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+ "python": "3.12.15",
+ "perturbation": "none",
+ "sizes": [
+  {
+   "qbits": 2,
+   "profiles": 10,
+   "starts_per_profile": 32,
+   "runs_compared": 320,
+   "runs_differing": 0
+  },
+  {
+   "qbits": 3,
+   "profiles": 10,
+   "starts_per_profile": 32,
+   "runs_compared": 320,
+   "runs_differing": 0
+  },
+  {
+   "qbits": 4,
+   "profiles": 10,
+   "starts_per_profile": 32,
+   "runs_compared": 320,
+   "runs_differing": 0
+  },
+  {
+   "qbits": 5,
+   "profiles": 3,
+   "starts_per_profile": 32,
+   "runs_compared": 96,
+   "runs_differing": 0
+  }
+ ],
+ "runs_compared": 1056,
+ "runs_differing": 0
+}

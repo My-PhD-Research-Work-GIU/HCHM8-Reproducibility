@@ -1,0 +1,5 @@
+C vs S: smallest p 0.1579, smallest Holm p 1.0000, max |g| 0.0334, g bound 0.0767
+CL vs S: smallest p 0.0162, smallest Holm p 0.1293, max |g| 0.0534, g bound 0.0967
+C vs H: smallest p 0.1355, smallest Holm p 1.0000, max |g| 0.0238, g bound 0.0671
+H vs S: smallest p 0.0714, smallest Holm p 0.5711, max |g| 0.0423, g bound 0.0856
+{"C": {"bytes": 1056768, "chi2": 293.2296511627907, "df": 255, "p": 0.050075728422653155}, "CL": {"bytes": 1056768, "chi2": 218.19815891472868, "df": 255, "p": 0.9540496058658714}} {"S": 4096, "H": 4096, "C": 4096, "CL": 4096}

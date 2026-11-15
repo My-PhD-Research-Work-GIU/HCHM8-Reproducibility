@@ -1,0 +1,265 @@
+{
+ "tag": "windows11",
+ "environment": {
+  "platform": "Windows-11-10.0.26300-SP0",
+  "machine": "AMD64",
+  "python": "3.12.13",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "numba": "0.68.0"
+ },
+ "map_numerics": {
+  "numeric_le_mean_stored": [
+   2.062565938159022,
+   1.761355723211749,
+   1.3164701088117818,
+   0.9635130803690929,
+   -0.9613862164362773,
+   -1.317159681770702,
+   -1.7618760284309445,
+   -2.0634829239137207
+  ],
+  "numeric_le_mean_rerun": [
+   2.062257486568552,
+   1.761736449748069,
+   1.316547072792506,
+   0.9631436159446993,
+   -0.9612987247715723,
+   -1.3167949095146305,
+   -1.7621332380427142,
+   -2.06345775272491
+  ],
+  "max_abs_numeric_minus_exact_stored": 0.0013914508273371595,
+  "max_abs_numeric_minus_exact_rerun": 0.0011795823270088768,
+  "max_abs_rerun_minus_stored_mean": 0.00038072653632004183,
+  "numeric_le_identical": false,
+  "max_roundtrip_error": [
+   4.440892098500626e-16,
+   4.440892098500626e-16
+  ],
+  "max_conjugacy_error": [
+   8.881784197001252e-16,
+   8.881784197001252e-16
+  ],
+  "detT_max_abs_error": [
+   5.395683899678261e-14,
+   7.638334409421077e-14
+  ],
+  "reference_sensitivity_thresholds_stored": [
+   6,
+   9,
+   12,
+   16
+  ],
+  "reference_sensitivity_thresholds_rerun": [
+   6,
+   9,
+   12,
+   16
+  ],
+  "seconds": 16.0
+ },
+ "portability": {
+  "stored_corpus_environment": "original package run (Linux); see 03_REPRODUCIBILITY_AND_QA",
+  "tables_identical_to_stored": {
+   "HCHM+SHAKE": [
+    2707,
+    4096
+   ],
+   "SHAKE-only": [
+    4096,
+    4096
+   ]
+  },
+  "distinct_tables_in_rerun": 8192,
+  "seconds": 43.8
+ },
+ "extended_ablation": {
+  "prespecified_statistics": 8,
+  "tests": [
+   {
+    "statistic": "sac_mad",
+    "test": "Kolmogorov-Smirnov",
+    "n_per_arm": 4096,
+    "mean_hchm_shake": 0.026997268199920654,
+    "mean_shake_only": 0.026980340480804443,
+    "standardized_mean_difference": 0.00839509277929855,
+    "test_statistic": 0.012939453125,
+    "p": 0.882848078689792,
+    "p_holm": 1.0
+   },
+   {
+    "statistic": "sac_maxdev",
+    "test": "Kolmogorov-Smirnov",
+    "n_per_arm": 4096,
+    "mean_hchm_shake": 0.06204986572265625,
+    "mean_shake_only": 0.062061309814453125,
+    "standardized_mean_difference": -0.004405468197202307,
+    "test_statistic": 0.000732421875,
+    "p": 0.9999999999999997,
+    "p_holm": 1.0
+   },
+   {
+    "statistic": "bic_max_abs_corr",
+    "test": "Kolmogorov-Smirnov",
+    "n_per_arm": 4096,
+    "mean_hchm_shake": 0.13190329500136916,
+    "mean_shake_only": 0.13191478339242374,
+    "standardized_mean_difference": -0.004511437907169782,
+    "test_statistic": 0.0068359375,
+    "p": 0.9999797115345855,
+    "p_holm": 1.0
+   },
+   {
+    "statistic": "bic_mean_abs_corr",
+    "test": "Kolmogorov-Smirnov",
+    "n_per_arm": 4096,
+    "mean_hchm_shake": 0.05447352094340231,
+    "mean_shake_only": 0.05447613194393615,
+    "standardized_mean_difference": -0.0012489500096011235,
+    "test_statistic": 0.016845703125,
+    "p": 0.6064814904525021,
+    "p_holm": 1.0
+   },
+   {
+    "statistic": "fixed",
+    "test": "Mann-Whitney U",
+    "n_per_arm": 4096,
+    "mean_hchm_shake": 1.00439453125,
+    "mean_shake_only": 1.005615234375,
+    "standardized_mean_difference": -0.00121005366310978,
+    "test_statistic": 8418002.0,
+    "p": 0.7714802075454441,
+    "p_holm": 1.0
+   },
+   {
+    "statistic": "opposite",
+    "test": "Mann-Whitney U",
+    "n_per_arm": 4096,
+    "mean_hchm_shake": 1.000244140625,
+    "mean_shake_only": 1.017822265625,
+    "standardized_mean_difference": -0.017564513240116524,
+    "test_statistic": 8310038.5,
+    "p": 0.4375236755151951,
+    "p_holm": 1.0
+   },
+   {
+    "statistic": "cycles",
+    "test": "Mann-Whitney U",
+    "n_per_arm": 4096,
+    "mean_hchm_shake": 6.140625,
+    "mean_shake_only": 6.109375,
+    "standardized_mean_difference": 0.014771727410023913,
+    "test_statistic": 8458002.5,
+    "p": 0.4983419261327934,
+    "p_holm": 1.0
+   },
+   {
+    "statistic": "longest_cycle",
+    "test": "Mann-Whitney U",
+    "n_per_arm": 4096,
+    "mean_hchm_shake": 160.31396484375,
+    "mean_shake_only": 160.335205078125,
+    "standardized_mean_difference": -0.00043078022162817075,
+    "test_statistic": 8397939.5,
+    "p": 0.9305239054475102,
+    "p_holm": 1.0
+   }
+  ],
+  "smallest_p": 0.4375236755151951,
+  "smallest_p_holm": 1.0,
+  "any_significant_at_0.05_after_holm": false,
+  "supplementary_post_hoc": {
+   "distinct_values": {
+    "sac_maxdev": 2,
+    "bic_max_abs_corr": 15
+   },
+   "sac_maxdev_counts_at_largest_value_vs_other": [
+    [
+     3978,
+     118
+    ],
+    [
+     3981,
+     115
+    ]
+   ],
+   "sac_maxdev_fisher_exact_p": 0.8942851028301426,
+   "bic_max_abs_corr_mann_whitney_p": 0.7759836528617279
+  }
+ },
+ "lattice_serialization": {
+  "bits_per_coordinate": 16,
+  "serialized_bits_per_round": 2048,
+  "tables": 4096,
+  "distinct_tables": 4096,
+  "serializations_unchanged_under_last_bit_perturbation": [
+   4096,
+   4096
+  ],
+  "sanity_serializations_changed_under_perturbation_scaled_1e12": [
+   256,
+   256
+  ],
+  "ablation_against_shake_only": [
+   {
+    "statistic": "sac_mad",
+    "mean_lattice_arm": 0.026996314525604248,
+    "mean_shake_only": 0.026980340480804443,
+    "p": 0.7718138932643601,
+    "p_holm": 1.0
+   },
+   {
+    "statistic": "sac_maxdev",
+    "mean_lattice_arm": 0.06206512451171875,
+    "mean_shake_only": 0.062061309814453125,
+    "p": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "statistic": "bic_max_abs_corr",
+    "mean_lattice_arm": 0.13192301693043912,
+    "mean_shake_only": 0.13191478339242374,
+    "p": 0.9999000982133844,
+    "p_holm": 1.0
+   },
+   {
+    "statistic": "bic_mean_abs_corr",
+    "mean_lattice_arm": 0.054535824348440315,
+    "mean_shake_only": 0.05447613194393615,
+    "p": 0.6436564054471805,
+    "p_holm": 1.0
+   },
+   {
+    "statistic": "fixed",
+    "mean_lattice_arm": 1.01025390625,
+    "mean_shake_only": 1.005615234375,
+    "p": 0.6470994183912699,
+    "p_holm": 1.0
+   },
+   {
+    "statistic": "opposite",
+    "mean_lattice_arm": 0.9833984375,
+    "mean_shake_only": 1.017822265625,
+    "p": 0.06512744895556974,
+    "p_holm": 0.5210195916445579
+   },
+   {
+    "statistic": "cycles",
+    "mean_lattice_arm": 6.1015625,
+    "mean_shake_only": 6.109375,
+    "p": 0.8806752525252776,
+    "p_holm": 1.0
+   },
+   {
+    "statistic": "longest_cycle",
+    "mean_lattice_arm": 160.528076171875,
+    "mean_shake_only": 160.335205078125,
+    "p": 0.7833285956631675,
+    "p_holm": 1.0
+   }
+  ],
+  "any_significant_at_0.05_after_holm": false,
+  "seconds": 13.3
+ }
+}
