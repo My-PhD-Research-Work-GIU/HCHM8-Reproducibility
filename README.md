@@ -2,7 +2,8 @@
 
 Code and data behind the results of the article *Two Discretizations of HCHM-8, an Eight-Dimensional Chaotic Map with Exactly
 Known Invariants: Finite-State Behaviour and Consequences for Chaos-Based S-Boxes* (manuscript; authors and affiliations as listed
-in the article). Release `v1.0.0` corresponds to paper revision 15 (2026-11-15).
+in the article). Release `v1.0.1` corresponds to paper revision 15 (2026-11-15); it corrects the checksum file of `v1.0.0`
+without changing any script or result (see `CHANGELOG.md`).
 
 The folder layout follows the project from which the package was taken, so that the scripts find each other by relative path.
 Every result file was produced by the script next to it; plans written before the runs are kept beside their results.
@@ -54,7 +55,17 @@ exhaustive runs at 2^24 states take minutes per profile on 16 threads; the uncap
 
 ## Integrity
 
-`SHA256SUMS.txt` lists the SHA-256 of every file of this release.
+`SHA256SUMS.txt` lists the SHA-256 of every file of this release except itself. It was computed on the committed contents, and
+`.gitattributes` (`* -text`) makes Git store and check out every file byte for byte, so the list verifies on a clone and on the
+release zip:
+
+```
+sha256sum -c SHA256SUMS.txt
+```
+
+Erratum for `v1.0.0`: in that release Git converted the line endings of 53 result files (CSV, JSON and TXT) from CRLF to LF at
+commit, after the checksums had been computed, so 53 entries of its checksum file do not verify. The files differ from the
+checksummed originals only in line endings. `v1.0.1` restores the original bytes; `v1.0.0` is kept unchanged.
 
 ## Not included
 
